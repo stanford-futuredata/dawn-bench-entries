@@ -1,0 +1,12 @@
+{
+    "version": "v1.0",
+    "author": "Stanford DAWN",
+    "authorEmail": "dawn-benchmark@lists.stanford.edu",
+    "framework": "TensorFlow v1.2",
+    "codeURL": "https://github.com/stanford-futuredata/dawn-bench-models/tree/master/tensorflow/SQuAD",
+    "model": "BiDAF",
+    "hardware": "1 K80 / 61 GB / 4 CPU (Amazon EC2 [p2.xlarge])",
+    "costPerHour": 0.9,
+    "timestamp": "2017-10-12",
+    "misc": "CUDA version: 8.0, CuDNN version: 5.1"
+}

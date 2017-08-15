@@ -1,0 +1,14 @@
+{
+    "version": "v1.0",
+    "author": "Stanford DAWN",
+    "authorEmail": "dawn-benchmark@lists.stanford.edu",
+    "framework": "PyTorch v0.1.12",
+    "codeURL": "https://github.com/stanford-futuredata/dawn-bench-models/tree/master/pytorch/CIFAR10",
+    "model": "ResNet 56",
+    "hardware": "1 K80 / 61 GB / 4 CPU (Amazon EC2 [p2.xlarge])",
+    "latency": 9.784310778490001,
+    "cost": 2.4460776946225e-06,
+    "top1Accuracy": 94.08999999999999,
+    "timestamp": "2017-10-11",
+    "misc": "CUDA version: 8.0, CuDNN version: 5.1"
+}

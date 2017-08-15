@@ -1,0 +1,12 @@
+{
+    "version": "v1.0",
+    "author": "Stanford DAWN",
+    "authorEmail": "dawn-benchmark@lists.stanford.edu",
+    "framework": "MXNet 0.11.0",
+    "codeURL": "https://github.com/tornadomeet/ResNet",
+    "model": "ResNet152",
+    "hardware": "8 K80 / 488 GB / 32 CPU (Amazon EC2 [p2.8xlarge])",
+    "costPerHour": 4.56,
+    "timestamp": "2017-10-27",
+    "misc": ""
+}

@@ -1,0 +1,14 @@
+{
+    "version": "v1.0",
+    "author": "Stanford DAWN",
+    "authorEmail": "dawn-benchmark@lists.stanford.edu",
+    "framework": "TensorFlow v1.2",
+    "codeURL": "https://github.com/stanford-futuredata/dawn-bench-models/tree/master/tensorflow/CIFAR10",
+    "model": "ResNet 164 (with bottleneck)",
+    "hardware": "1 K80 / 61 GB / 4 CPU (Amazon EC2 [p2.xlarge])",
+    "latency": 38.58259999999999,
+    "cost": 9.645649999999998e-06,
+    "top1Accuracy": 94.58,
+    "timestamp": "2017-10-11",
+    "misc": "CUDA version: 8.0, CuDNN version: 5.1"
+}

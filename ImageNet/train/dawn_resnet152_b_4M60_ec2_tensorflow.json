@@ -1,0 +1,12 @@
+{
+    "version": "v1.0",
+    "author": "Stanford DAWN",
+    "authorEmail": "dawn-benchmark@lists.stanford.edu",
+    "framework": "TensorFlow v1.3",
+    "codeURL": "https://github.com/deepakn94/tensorflow-benchmarks/blob/master/scripts/tf_cnn_benchmarks/tf_cnn_benchmarks.py",
+    "model": "ResNet152",
+    "hardware": "4 M60 / 488 GB / 64 CPU (Amazon EC2 [g3.16xlarge])",
+    "costPerHour": 7.2,
+    "timestamp": "2017-10-27",
+    "misc": ""
+}
