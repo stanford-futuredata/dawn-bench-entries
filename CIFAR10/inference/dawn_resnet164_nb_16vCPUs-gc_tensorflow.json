@@ -10,5 +10,8 @@
     "cost": 3.6895444444444444e-06,
     "top1Accuracy": 94.04,
     "timestamp": "2017-10-11",
-    "misc": "CUDA version: 8.0, CuDNN version: 5.1"
+    "misc": {
+        "CUDA version": "8.0",
+        "CuDNN version": "5.1"
+    }
 }

@@ -8,5 +8,8 @@
     "hardware": "60 GB / 16 CPU (Google Cloud [n1-standard-16])",
     "costPerHour": 0.533,
     "timestamp": "2017-10-12",
-    "misc": "CUDA version: 8.0, CuDNN version: 5.1"
+    "misc": {
+        "CUDA version": "8.0",
+        "CuDNN version": "5.1"
+    }
 }

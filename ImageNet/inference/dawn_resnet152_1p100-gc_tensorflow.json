@@ -7,8 +7,11 @@
     "model": "ResNet 152",
     "hardware": "1 P100 / 30 GB / 8 CPU (Google Compute)",
     "latency": 22.27,
-    "cost": 0.000010844,
+    "cost": 1.0844e-05,
     "top5Accuracy": 93.35,
     "timestamp": "2017-11-30",
-    "misc": "CUDA version: 8.0, CuDNN version: 5.1"
+    "misc": {
+        "CUDA version": "8.0",
+        "CuDNN version": "5.1"
+    }
 }

@@ -8,5 +8,5 @@
     "hardware": "8 K80 / 488 GB / 32 CPU (Amazon EC2 [p2.8xlarge])",
     "costPerHour": 4.56,
     "timestamp": "2017-10-27",
-    "misc": ""
+    "misc": {}
 }

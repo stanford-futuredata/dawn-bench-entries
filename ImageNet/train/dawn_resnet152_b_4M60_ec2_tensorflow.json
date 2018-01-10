@@ -8,5 +8,5 @@
     "hardware": "4 M60 / 488 GB / 64 CPU (Amazon EC2 [g3.16xlarge])",
     "costPerHour": 7.2,
     "timestamp": "2017-10-27",
-    "misc": ""
+    "misc": {}
 }

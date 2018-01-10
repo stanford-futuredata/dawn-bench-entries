@@ -43,7 +43,7 @@ Results for the CIFAR10 training tasks can be reported using a JSON file with th
 - `costPerHour`: [Optional] Reported in USD ($). Cost of instance per hour
 - `timestamp`: Date of submission in format `yyyy-mm-dd`
 - `logFilename`: [Optional] URL pointing to training logs
-- `misc`: [Optional] List of other miscellaneous notes, such as learning rate schedule, optimization algorithm,
+- `misc`: [Optional] JSON object of other miscellaneous notes, such as learning rate schedule, optimization algorithm,
   framework version, etc.
 
 In addition, report training progress at the end of every epoch in a TSV with the following format,
@@ -72,7 +72,7 @@ JSON and TSV files are named `[author name]_[model name]_[hardware tag]_[framewo
     "hardware": "1 K80 / 30 GB / 8 CPU (Google Cloud)",
     "costPerHour": 0.90,
     "timestamp": "2017-08-14",
-    "misc": []
+    "misc": {}
 }
 ```
 
@@ -120,7 +120,7 @@ Results for the CIFAR10 inference tasks can be reported using a JSON file with t
 - `top1Accuracy`: Reported in percentage points from 0 to 100. Accuracy of model on CIFAR10 test dataset.
 - `timestamp`: Date of submission in format `yyyy-mm-dd`
 - `logFilename`: [Optional] URL pointing to training / inference logs
-- `misc`: [Optional] List of other miscellaenous notes, such as batch size, framework version,
+- `misc`: [Optional] JSON object of other miscellaneous notes, such as batch size, framework version,
   etc.
   
 Note that it is only necessary to specify _one_ of the `latency` and `cost` fields outlined
@@ -144,7 +144,7 @@ JSON files are named `[author name]_[model name]_[hardware tag]_[framework].json
     "cost": 1e-6,
     "accuracy": 94.45,
     "timestamp": "2017-08-14",
-    "misc": []
+    "misc": {}
 }
 ```
 
@@ -178,7 +178,7 @@ Results for the ImageNet training tasks can be reported using a JSON file with t
 - `costPerHour`: [Optional] Reported in USD ($). Cost of instance per hour
 - `timestamp`: Date of submission in format `yyyy-mm-dd`
 - `logFilename`: [Optional] URL pointing to training logs
-- `misc`: [Optional] List of other miscellaenous notes, such as learning rate schedule, optimization algorithm,
+- `misc`: [Optional] JSON object of other miscellaneous notes, such as learning rate schedule, optimization algorithm,
   framework version, etc.
   
 In addition, report training progress at the end of every epoch in a TSV with the following format,
@@ -206,7 +206,7 @@ JSON and TSV files are named `[author name]_[model name]_[hardware tag]_[framewo
     "hardware": "1 K80 / 30 GB / 8 CPU (Google Cloud)",
     "costPerHour": 0.90,
     "timestamp": "2017-08-14",
-    "misc": []
+    "misc": {}
 }
 ```
 
@@ -255,7 +255,7 @@ Results for the ImageNet inference tasks can be reported using a JSON file with 
 - `top5Accuracy`: Reported in percentage points from 0 to 100. Accuracy of model on ImageNet test dataset.
 - `timestamp`: Date of submission in format `yyyy-mm-dd`
 - `logFilename`: [Optional] URL pointing to training / inference logs
-- `misc`: [Optional] List of other miscellaenous notes, such as batch size, framework version,
+- `misc`: [Optional] JSON object of other miscellaneous notes, such as batch size, framework version,
   etc.
   
 Note that it is only necessary to specify _one_ of the `latency` and `cost` fields outlined
@@ -279,7 +279,7 @@ JSON files are named `[author name]_[model name]_[hardware tag]_[framework].json
     "cost": 4.27e-6,
     "top5Accuracy": 93.45,
     "timestamp": "2017-08-14",
-    "misc": []
+    "misc": {}
 }
 ```
 
@@ -314,7 +314,7 @@ Results for the SQuAD training tasks can be reported using a JSON file with the 
 - `costPerHour`: [Optional] Reported in USD ($). Cost of instance per hour
 - `timestamp`: Date of submission in format `yyyy-mm-dd`
 - `logFilename`: [Optional] URL pointing to training / inference logs
-- `misc`: [Optional] List of other miscellaenous notes, such as learning rate schedule, optimization algorithm,
+- `misc`: [Optional] JSON object of other miscellaneous notes, such as learning rate schedule, optimization algorithm,
   framework version, etc.
 
 In addition, report training progress at the end of every epoch in a TSV with the following format,
@@ -342,7 +342,7 @@ JSON and TSV files are named `[author name]_[model name]_[hardware tag]_[framewo
     "hardware": "1 K80 / 30 GB / 8 CPU (Google Cloud)",
     "costPerHour": 0.90,
     "timestamp": "2017-08-14",
-    "misc": []
+    "misc": {}
 }
 ```
 
@@ -390,7 +390,7 @@ Results for the SQuAD inference tasks can be reported using a JSON file with the
 - `f1Score`: Reported in fraction from 0.0 to 1.0. F1 score of model on SQuAD development dataset
 - `timestamp`: Date of submission in format `yyyy-mm-dd`
 - `logFilename`: [Optional] URL pointing to training / inference logs
-- `misc`: [Optional] List of other miscellaenous notes, such as batch size, framework version,
+- `misc`: [Optional] JSON object of other miscellaneous notes, such as batch size, framework version,
   etc.
 
 Note that it is only necessary to specify _one_ of the `latency` and `cost` fields outlined
@@ -414,6 +414,6 @@ JSON files are named `[author name]_[model name]_[hardware tag]_[framework].json
     "cost": 2e-6,
     "f1Score": 0.7524165510999999,
     "timestamp": "2017-08-14",
-    "misc": []
+    "misc": {}
 }
 ```
