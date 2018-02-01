@@ -1,0 +1,12 @@
+{
+    "version": "v1.0",
+    "author": "DIUX",
+    "authorEmail": "ybulatov.ctr@diux.mil",
+    "framework": "tensorflow 1.5, tensorpack 0.8.1",
+    "codeURL": "https://github.com/ppwwyyxx/tensorpack/blob/master/examples/ResNet/cifar10-resnet.py",
+    "model": "ResNet50",
+    "hardware": "g3.4xlarge",
+    "timestamp": "2018-1-31",
+    "misc": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based) "
+    "costPerHour": 1.14,
+}
