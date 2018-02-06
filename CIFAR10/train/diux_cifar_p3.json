@@ -6,7 +6,17 @@
     "codeURL": "https://github.com/ppwwyyxx/tensorpack/blob/master/examples/ResNet/cifar10-resnet.py",
     "model": "ResNet50",
     "hardware": "p3.2xlarge",
-    "timestamp": "2018-1-31",
-    "misc": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based) "
+    "timestamp": "2018-01-31",
     "costPerHour": 3.06,
+    "optimizer": "SGD with Momentum",
+    "momentum": 0.9,
+    "schedule": [
+        {"learning_rate": 0.1, "epochs": 1},
+        {"learning_rate": 0.01, "epochs": 82},
+        {"learning_rate": 0.001, "epochs": 123},
+        {"learning_rate": 0.0002, "epochs": 300}
+    ],
+    "misc": {
+        "AMI": "ami-9ba7c4e1"
+    }
 }
