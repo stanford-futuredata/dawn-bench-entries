@@ -10,13 +10,13 @@
     "costPerHour": 1.14,
     "optimizer": "SGD with Momentum",
     "momentum": 0.9,
-    "schedule": [
-        {"learning_rate": 0.1, "epochs": 1},
-        {"learning_rate": 0.01, "epochs": 82},
-        {"learning_rate": 0.001, "epochs": 123},
-        {"learning_rate": 0.0002, "epochs": 300}
-    ],
     "misc": {
-        "AMI": "ami-9ba7c4e1"
+        "ami": "ami-9ba7c4e1",
+        "schedule": [
+                {"learning_rate": 0.1, "epochs": 82},
+                {"learning_rate": 0.01, "epochs": 41},
+                {"learning_rate": 0.001, "epochs":  177},
+                {"learning_rate": 0.0002, "epochs": 100}
+        ]
     }
 }

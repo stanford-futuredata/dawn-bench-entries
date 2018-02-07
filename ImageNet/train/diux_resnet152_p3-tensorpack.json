@@ -7,18 +7,35 @@
 	"model": "ResNet152",
 	"hardware": "p3.16xlarge",
 	"timestamp": "2018-01-31",
-  "costPerHour": 24.48,
-  "optimizer": "SGD with Momentum",
-  "momentum": 0.9,
-  "schedule": [
-    {"learning_rate": 0.1, "epochs": 1},
-    {"learning_rate": 0.15, "epochs": 1},
-    {"learning_rate": 0.2, "epochs": 28},
-    {"learning_rate": 0.02, "epochs": 30},
-    {"learning_rate": 0.002, "epochs": 20},
-    {"learning_rate": 0.0002, "epochs": 20}
-  ],
+	"costPerHour": 24.48,
+	"optimizer": "SGD with Momentum",
+	"momentum": 0.9,
 	"misc": {
-		"ami": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based)"
+		"ami": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based)",
+		"schedule": [{
+				"learning_rate": 0.1,
+				"epochs": 1
+			},
+			{
+				"learning_rate": 0.15,
+				"epochs": 1
+			},
+			{
+				"learning_rate": 0.2,
+				"epochs": 28
+			},
+			{
+				"learning_rate": 0.02,
+				"epochs": 30
+			},
+			{
+				"learning_rate": 0.002,
+				"epochs": 20
+			},
+			{
+				"learning_rate": 0.0002,
+				"epochs": 20
+			}
+		]
 	}
 }
