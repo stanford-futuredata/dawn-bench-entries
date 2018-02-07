@@ -1,0 +1,33 @@
+{
+	"version": "v1.0",
+	"author": "DIUX",
+	"authorEmail": "ybulatov.ctr@diux.mil",
+	"framework": "tensorflow 1.5, tensorpack 0.8.1",
+	"codeURL": "https://github.com/ppwwyyxx/tensorpack/blob/master/examples/ResNet/cifar10-resnet.py",
+	"model": "ResNet50",
+	"hardware": "p3.2xlarge",
+	"timestamp": "2018-01-31",
+	"costPerHour": 3.06,
+	"optimizer": "SGD with Momentum",
+	"momentum": 0.9,
+	"misc": {
+		"AMI": "ami-9ba7c4e1",
+		"schedule": [{
+				"learning_rate": 0.1,
+				"epochs": 82
+			},
+			{
+				"learning_rate": 0.01,
+				"epochs": 41
+			},
+			{
+				"learning_rate": 0.001,
+				"epochs": 177
+			},
+			{
+				"learning_rate": 0.0002,
+				"epochs": 100
+			}
+		]
+	}
+}
