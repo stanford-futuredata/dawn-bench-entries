@@ -4,7 +4,7 @@
 	"authorEmail": "ybulatov.ctr@diux.mil",
 	"framework": "tensorflow 1.5, tensorpack 0.8.1",
 	"codeURL": "https://github.com/diux-dev/cluster/blob/master/dawn/resnet.b512.baseline.py",
-	"model": "ResNet152",
+	"model": "ResNet50",
 	"hardware": "p3.16xlarge",
 	"timestamp": "2018-01-31",
 	"costPerHour": 24.48,
