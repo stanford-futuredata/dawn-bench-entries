@@ -12,7 +12,8 @@
 	"optimizer": "SGD with Momentum",
 	"momentum": 0.9,
 	"misc": {
-		"ami": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based)",
+		  "ami": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based)",
+      "reproduction_instructions": "https://docs.google.com/document/d/1I6sjUpU1myzQGqcX3NyezSkChVZIui8Gxo5vove9ZV0/edit#heading=h.gmrlbtx6xbvi",
 		"schedule": [{
 				"learning_rate": 0.1,
 				"epochs": 1
