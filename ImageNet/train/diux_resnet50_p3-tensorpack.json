@@ -4,14 +4,17 @@
 	"authorEmail": "ybulatov.ctr@diux.mil",
 	"framework": "tensorflow 1.5, tensorpack 0.8.1",
 	"codeURL": "https://github.com/diux-dev/cluster/blob/master/dawn/resnet.b512.baseline.py",
-	"model": "ResNet152",
+	"model": "ResNet50",
 	"hardware": "p3.16xlarge",
-	"timestamp": "2018-01-31",
+  "timestamp": "2018-01-31",
 	"costPerHour": 24.48,
 	"optimizer": "SGD with Momentum",
 	"momentum": 0.9,
 	"misc": {
-		"ami": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based)",
+      "logFilename": "https://github.com/stanford-futuredata/dawn-bench-entries/files/1725379/log.log",
+      "eventsFilename": "https://www.dropbox.com/s/oy8moee1so240lz/events.out.tfevents.1517363185.ip-192-168-43-222?dl=1",
+		  "ami": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based)",
+      "reproduction_instructions": "https://docs.google.com/document/d/1I6sjUpU1myzQGqcX3NyezSkChVZIui8Gxo5vove9ZV0/edit#heading=h.gmrlbtx6xbvi",
 		"schedule": [{
 				"learning_rate": 0.1,
 				"epochs": 1
