@@ -7,12 +7,12 @@
 	"model": "ResNet50",
 	"hardware": "p3.16xlarge",
   "timestamp": "2018-01-31",
-  "logFilename": "https://github.com/stanford-futuredata/dawn-bench-entries/files/1725379/log.log",
-  "eventsFilename": "https://www.dropbox.com/s/oy8moee1so240lz/events.out.tfevents.1517363185.ip-192-168-43-222?dl=1",
 	"costPerHour": 24.48,
 	"optimizer": "SGD with Momentum",
 	"momentum": 0.9,
 	"misc": {
+      "logFilename": "https://github.com/stanford-futuredata/dawn-bench-entries/files/1725379/log.log",
+      "eventsFilename": "https://www.dropbox.com/s/oy8moee1so240lz/events.out.tfevents.1517363185.ip-192-168-43-222?dl=1",
 		  "ami": "ami-9ba7c4e1 (Amazon Deep Learning AMI version 2, Ubuntu, conda based)",
       "reproduction_instructions": "https://docs.google.com/document/d/1I6sjUpU1myzQGqcX3NyezSkChVZIui8Gxo5vove9ZV0/edit#heading=h.gmrlbtx6xbvi",
 		"schedule": [{
