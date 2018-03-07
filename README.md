@@ -21,7 +21,7 @@ To add your model to our leaderboard, open a Pull Request with title `<Model nam
 
 We evaluate image classification performance on the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
 
-For training, we have two tasks:
+For training, we have two metrics:
 - **Training Time:** Train an image classification model for the CIFAR10 dataset. Report the time needed to train
   a model with test set accuracy of at least 94%
 - **Cost:** On public cloud infrastructure, compute the total time needed to reach a test set accuracy of
@@ -97,7 +97,7 @@ epoch   hours top1Accuracy
 
 We evaluate image classification performance on the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
 
-For inference, we have two tasks:
+For inference, we have two metrics:
 - **Latency:** Use a model that has a test set accuracy of 94% or greater. Measure the total time needed to classify
   all 10,000 images in the CIFAR10 test set _one-at-a-time_, and then divide by 10,000
 - **Cost:** Use a model that has a test set accuracy of 94% or greater. Measure the average per-image latency
@@ -156,7 +156,7 @@ JSON files are named `[author name]_[model name]_[hardware tag]_[framework].json
 
 We evaluate image classification performance on the [ImageNet dataset](http://www.image-net.org/challenges/LSVRC/2012/).
 
-For training, we have two tasks:
+For training, we have two metrics:
 - **Training Time:** Train an image classification model for the ImageNet dataset. Report the time needed to train
   a model with top-5 validation accuracy of at least 93%
 - **Cost:** On public cloud infrastructure, compute the total time needed to reach a validation accuracy of
@@ -231,7 +231,7 @@ epoch   hours top1Accuracy top5Accuracy
 
 We evaluate image classification performance on the [ImageNet dataset](http://www.image-net.org/challenges/LSVRC/2012/).
 
-For inference, we have two tasks:
+For inference, we have two metrics:
 - **Latency:** Use a model that has a top-5 validation accuracy of 93% or greater. Measure the total time needed to classify
   all 50,000 images in the ImageNet validation set _one-at-a-time_, and then divide by 50,000
 - **Cost:** Use a model that has a top-5 validation accuracy of 93% or greater. Measure the average latency of performing
@@ -292,7 +292,7 @@ JSON files are named `[author name]_[model name]_[hardware tag]_[framework].json
 
 We evaluate question answering performance on the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer/).
 
-For training, we have two tasks:
+For training, we have two metrics:
 - **Training Time:** Train a question answering model for the SQuAD dataset. Report the time needed to train
   a model with a dev set F1 score of at least 0.73
 - **Cost:** On public cloud infrastructure, compute the total time needed to reach a dev set F1 score of 0.73
@@ -367,7 +367,7 @@ epoch   hours f1Score
 
 We evaluate question answering performance on the [SQuAD dataset](https://rajpurkar.github.io/SQuAD-explorer/).
 
-For inference, we have two tasks:
+For inference, we have two metrics:
 - **Latency:** Use a model that has a dev set F1 measure of 0.73 or greater. Measure the total time needed to answer
   all questions in the SQuAD dev set _one-at-a-time_, and then divide by the number of questions
 - **Cost:** Use a model that has a dev set F1 measure of 0.73 or greater. Measure the average latency needed to
@@ -417,3 +417,7 @@ JSON files are named `[author name]_[model name]_[hardware tag]_[framework].json
     "misc": {}
 }
 ```
+
+## FAQ
+- **Can spot instances be used for cost metrics?** For submissions including cost, please use on-demand, i.e., non-preemptible, instance pricing. Spot pricing is too volatile for the current release the benchmark. We're open to suggestions on better ways to deal with pricing volatility, so if you have ideas, please pitch them on the [google group](https://groups.google.com/forum/#!forum/dawn-bench-community)
+- **Is validation time included in training time?** No, you don't need to include the time required to calculate validation accuracy and save checkpoints.
