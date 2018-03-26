@@ -1,0 +1,29 @@
+{
+  "version": "v1.0",
+  "author": "Google Cloud TPU",
+  "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
+  "framework": "TensorFlow v1.7rc1",
+  "codeURL": "https://github.com/tensorflow/tpu/tree/b189540102d6b5b40b1730d7e5ad5c884bae323c/models/experimental/resnet_bfloat16",
+  "model": "ResNet50",
+  "hardware": "GCP n1-standard-2, Cloud TPU",
+  "costPerHour": 6.595,
+  "timestamp": "2018-03-25",
+  "misc": {
+    "optimizer": "SGD with Momentum",
+    "momentum": 0.9,
+    "weightDecay": 0.0001,
+    "batchSize": 1024,
+    "warmUp": "the learning rate starts at 0, then it increases linearly per iteration for the first 5 epochs",
+    "schedule": [
+      {"learning_rate": 0.0, "epochs": 1},
+      {"learning_rate": 0.08, "epochs": 1},
+      {"learning_rate": 0.16, "epochs": 1},
+      {"learning_rate": 0.24, "epochs": 1},
+      {"learning_rate": 0.32, "epochs": 1},
+      {"learning_rate": 0.4, "epochs": 25},
+      {"learning_rate": 0.04, "epochs": 30},
+      {"learning_rate": 0.004, "epochs": 20},
+      {"learning_rate": 0.0004, "epochs": 15}
+    ]
+  }
+}
