@@ -28,6 +28,9 @@ For training, we have two metrics:
   94% or greater, as outlined above. Multiply the time taken (in hours) by the cost of the instance per hour, to obtain the
   total cost of training the model
 
+Including cost is optional and will only be calculated if the `costPerHour` field is included in the JSON file.
+Submissions that only aim for time aren't restricted to public cloud infrastructure.
+
 ### JSON Format
 
 Results for the CIFAR10 training tasks can be reported using a JSON file with the following fields,
@@ -162,6 +165,9 @@ For training, we have two metrics:
 - **Cost:** On public cloud infrastructure, compute the total time needed to reach a validation accuracy of
   93% or greater, as outlined above. Multiply the time taken by the cost of the instance per hour, to obtain the
   total cost of training the model
+
+Including cost is optional and will only be calculated if the `costPerHour` field is included in the JSON file.
+Submissions that only aim for time aren't restricted to public cloud infrastructure.
 
 ### JSON Format
 
@@ -298,6 +304,9 @@ For training, we have two metrics:
 - **Cost:** On public cloud infrastructure, compute the total time needed to reach a dev set F1 score of 0.73
   or greater, as outlined above. Multiply the time taken by the cost of the instance per hour, to obtain the
   total cost of training the model
+
+Including cost is optional and will only be calculated if the `costPerHour` field is included in the JSON file.
+Submissions that only aim for time aren't restricted to public cloud infrastructure.
 
 ### JSON Format
 
