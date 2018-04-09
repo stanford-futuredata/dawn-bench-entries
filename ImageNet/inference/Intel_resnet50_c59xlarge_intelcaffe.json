@@ -1,0 +1,17 @@
+{
+    "version": "v1.0",
+    "author": "Intel(R) Corporation",
+    "authorEmail": "daisy.deng@intel.com",
+    "framework": "Intel(R) Optimized Caffe",
+    "codeURL": "https://github.com/intel/caffe/tree/DAWN_Bench",
+    "model": "ResNet50",
+    "hardware": "Amazon EC2 [c5.4xlarge])",
+    "latency": 18.87,
+    "cost": 3.6e-06,
+    "top5Accuracy": 93.218,
+    "timestamp": "2018-4-2",
+    "misc": {
+        "Intel(R) Optimized Caffe": "Caffe_v1.1.1",
+        "Intel(R) MKLDNN": "464c268e"
+    }
+}
