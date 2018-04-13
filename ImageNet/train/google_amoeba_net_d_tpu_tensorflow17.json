@@ -1,0 +1,19 @@
+{
+  "version": "v1.0",
+  "author": "Google Cloud TPU",
+  "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
+  "framework": "TensorFlow v1.7rc1",
+  "codeURL": "https://github.com/tensorflow/tpu/tree/master/models/experimental/amoeba_net",
+  "model": "AmoebaNet-D N6F256",
+  "hardware": "GCP n1-standard-2, Cloud TPU",
+  "costPerHour": 6.595,
+  "timestamp": "2018-04-13",
+  "misc": {
+    "optimizer": "RMSProp",
+    "Moving Average Decay": 0.9999,
+    "weightDecay": 0.00004,
+    "batchSize": 1024,
+    "warmUp": "the learning rate starts at 0, then it increases linearly per iteration to the inital learning rate for the first 1% of the total steps",
+    "exponentiial decay": "The initial learning rate is 2.56, it decrease by a factor of 0.88 every one epoch"
+  }
+}
