@@ -1,4 +1,4 @@
-epoch hours top1Accuracy  top5Accuracy
+epoch	hours	top1Accuracy	top5Accuracy
 1	0.307628	0.303243	0.558004
 2	0.535253	0.454895	0.711853
 3	0.762335	0.522970	0.770630
