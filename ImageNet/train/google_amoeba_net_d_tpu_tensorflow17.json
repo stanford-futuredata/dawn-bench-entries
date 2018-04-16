@@ -2,7 +2,7 @@
   "version": "v1.0",
   "author": "Google Cloud TPU",
   "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
-  "framework": "TensorFlow v1.7rc1",
+  "framework": "TensorFlow 1.8.0-rc0",
   "codeURL": "https://github.com/tensorflow/tpu/tree/4be0f638ed7b73dbf0777320df374e91cce79144/models/experimental/amoeba_net",
   "model": "AmoebaNet-D N6F256",
   "hardware": "GCP n1-standard-2, Cloud TPU",
