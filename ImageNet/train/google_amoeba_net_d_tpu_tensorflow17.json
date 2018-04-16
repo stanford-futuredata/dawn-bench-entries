@@ -16,6 +16,6 @@
     "warmUp": "the learning rate starts at 0, then it increases linearly per iteration to the inital learning rate for the first 1% of the total steps",
     "exponentialDecay": "The initial learning rate is 2.56, it decrease by a factor of 0.88 every one epoch",
     "numEpochs": 35,
-    "linkToPaper": "https://arxiv.org/pdf/1802.01548.pdf",
+    "linkToPaper": "https://arxiv.org/pdf/1802.01548.pdf"
   }
 }
