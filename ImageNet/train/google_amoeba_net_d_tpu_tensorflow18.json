@@ -3,7 +3,7 @@
   "author": "Google Cloud TPU",
   "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
   "framework": "TensorFlow 1.8.0-rc0",
-  "codeURL": "https://github.com/tensorflow/tpu/tree/4be0f638ed7b73dbf0777320df374e91cce79144/models/experimental/amoeba_net",
+  "codeURL": "https://github.com/tensorflow/tpu/tree/1acd2c4d48013ea1623ddbf9f28166a85404213a/models/experimental/amoeba_net",
   "model": "AmoebaNet-D N6F256",
   "hardware": "GCP n1-standard-2, Cloud TPU",
   "costPerHour": 6.595,
