@@ -17,7 +17,7 @@
     "exponentialDecay": "The initial learning rate is 2.56, it decrease by a factor of 0.88 every one epoch",
     "numEpochs": 35,
     "linkToPaper": "https://arxiv.org/pdf/1802.01548.pdf",
-    "linkToNormalCellDiagram": "goo.gl/gKt4fL",
-    "linkToReductionCellDiagram"" "goo.gl/a57tsX"
+    "linkToNormalCellDiagram": "https://goo.gl/gKt4fL",
+    "linkToReductionCellDiagram": "https://goo.gl/a57tsX"
   }
 }
