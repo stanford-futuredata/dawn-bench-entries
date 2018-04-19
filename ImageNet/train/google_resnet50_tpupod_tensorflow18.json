@@ -1,0 +1,29 @@
+{
+  "version": "v1.0",
+  "author": "Google",
+  "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
+  "framework": "TensorFlow 1.8.0-rc1",
+  "codeURL": "https://github.com/tensorflow/tpu/tree/dafdf3dbd057c49fffa9ea7d356a3a54d6e2fd68/models/official/resnet/benchmark",
+  "model": "ResNet50",
+  "hardware": "Half of a TPUv2 Pod",
+  "timestamp": "2018-04-18",
+  "misc": {
+    "optimizer": "SGD with Momentum",
+    "momentum": 0.9,
+    "weightDecay": 0.0001,
+    "batchSize": 8192,
+    "warmUp": "the learning rate starts at 0, then it increases linearly per iteration for the first 5 epochs",
+    "schedule": [
+      {"learning_rate": 0.0, "epochs": 1},
+      {"learning_rate": 0.64, "epochs": 1},
+      {"learning_rate": 1.28, "epochs": 1},
+      {"learning_rate": 1.92, "epochs": 1},
+      {"learning_rate": 2.56, "epochs": 1},
+      {"learning_rate": 3.2, "epochs": 25},
+      {"learning_rate": 0.32, "epochs": 30},
+      {"learning_rate": 0.032, "epochs": 20},
+      {"learning_rate": 0.0032, "epochs": 20}
+    ],
+    "runtimeWithoutCheckpointing": "23.94 minutes"
+  }
+}
