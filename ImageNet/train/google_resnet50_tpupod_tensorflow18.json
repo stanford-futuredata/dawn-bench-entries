@@ -1,11 +1,11 @@
 {
   "version": "v1.0",
-  "author": "Google Cloud TPU",
+  "author": "Google",
   "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
   "framework": "TensorFlow 1.8.0-rc1",
   "codeURL": "https://github.com/tensorflow/tpu/tree/dafdf3dbd057c49fffa9ea7d356a3a54d6e2fd68/models/official/resnet/benchmark",
   "model": "ResNet50",
-  "hardware": "TPUv2 Half-Pod",
+  "hardware": "Half of a TPUv2 Pod",
   "timestamp": "2018-04-18",
   "misc": {
     "optimizer": "SGD with Momentum",
@@ -24,6 +24,6 @@
       {"learning_rate": 0.032, "epochs": 20},
       {"learning_rate": 0.0032, "epochs": 20}
     ],
-    "runtimeWithoutCheckpointing": "24.6 minutes"
+    "runtimeWithoutCheckpointing": "23.94 minutes"
   }
 }
