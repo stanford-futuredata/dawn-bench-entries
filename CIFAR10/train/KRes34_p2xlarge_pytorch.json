@@ -1,0 +1,15 @@
+{
+    "version": "v1.0",
+    "author": "Chen Wang, Jianfei Yang, Lihua Xie, Junsong Yuan",
+    "authorEmail": "wang.chen@zoho.com",
+    "framework": "pytorch",
+    "codeURL": "https://github.com/wang-chen/KervNets",
+    "model": "KervResnet",
+    "hardware": "1 K80 / 61 GB / 4 CPU (Amazon EC2 [p2.xlarge])",
+    "costPerHour": 0.9,
+    "timestamp": "2018-04-20",
+    "misc": {
+        "CUDA version": "8.0",
+        "milestones": "[50,70,100]"
+    }
+}
