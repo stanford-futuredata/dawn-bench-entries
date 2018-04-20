@@ -4,7 +4,7 @@
     "authorEmail": "daisy.deng@intel.com",
     "framework": "Intel(R) Optimized Caffe",
     "codeURL": "https://github.com/intel/caffe/tree/DAWN_Bench",
-    "model": "ResNet50",
+    "model": "ResNet56",
     "hardware": "128 nodes with Xeon Platinum 8124M / 144 GB / 36 Cores (Amazon EC2 [c5.18xlarge])",
     "costPerHour": 391.68,
     "timestamp": "2018-04-19",
