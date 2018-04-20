@@ -1,0 +1,32 @@
+{
+    "version": "v1.0",
+    "author": "Intel(R) Corporation",
+    "authorEmail": "daisy.deng@intel.com",
+    "framework": "Intel(R) Optimized Caffe",
+    "codeURL": "https://github.com/intel/caffe/tree/DAWN_Bench",
+    "model": "ResNet50",
+    "hardware": "64 nodes with Xeon Platinum 8124M / 144 GB / 36 Cores (Amazon EC2 [c5.18xlarge])",
+    "costPerHour": 195.84,
+    "timestamp": "2018-04-18",
+    "logFilename": "https://github.com/intel/caffe/tree/DAWN_Bench/models/intel_optimized_models/multinode/resnet_50_64_nodes_2k_batch/outputCluster-skx-64.txt.tgz",
+    "misc": {
+        "Intel(R) Optimized Caffe": "https://github.com/intel/caffe/tree/DAWN_Bench, commit abf2a5c",
+        "Intel(R) MKLDNN": "https://github.com/intel/mkl-dnn, commit 464c268e",
+        "Intel(R) Machine Learning Scaling Library": "https://github.com/intel/MLSL, version l_mlsl_2018.0.003, also see https://github.com/intel/caffe/wiki/Multinode-guide#communication for introducation",
+        "Data Set": "please use raw lmdb for inference, to create raw lmdb you can use 'sh examples/imagenet/create_imagenet_raw.sh",
+        "optimizer": "SGD with Momentum",
+        "momentum": 0.9,
+        "weightDecay": 0.0001,
+        "batchSize": 2048,
+        "warmUp": "the learning rate starts at 0.1, then it increases linearly per iteration for the first 3 epochs",
+        "schedule": [
+          {"learning_rate": 0.1, "epochs": 1},
+          {"learning_rate": 0.33, "epochs": 1},
+          {"learning_rate": 0.56, "epochs": 1},
+          {"learning_rate": 0.8, "epochs": 27},
+          {"learning_rate": 0.08, "epochs": 30},
+          {"learning_rate": 0.008, "epochs": 20},
+          {"learning_rate": 0.0008, "epochs": 1}
+        ]
+    }
+}
