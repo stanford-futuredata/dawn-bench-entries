@@ -1,0 +1,14 @@
+{
+    "version": "v0.1",
+    "author": "Chen Wang",
+    "authorEmail": "wang.chen@zoho.com",
+    "framework": "PyTorch",
+    "codeURL": "https://github.com/wang-chen/KervNets",
+    "model": "KervResNet34",
+    "hardware": "1 GPU (Nvidia GeForce GTX 1080 Ti)",
+    "costPerHour": "NA",
+    "timestamp": "2018-04-20",
+    "misc": {
+        "CUDA version": "8.0", 
+    }
+}
