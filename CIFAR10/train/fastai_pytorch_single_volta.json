@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "fast.ai + students team: Jeremy Howard, Andrew Shaw, Brett Koonce, Sylvain Gugger",
+    "authorEmail": "j@fast.ai",
+    "framework": "fastai / pytorch",
+    "codeURL": "https://github.com/fastai/imagenet-fast/commit/a2ff907cd5e7315088324e1ff324fd25a1a67fe3",
+    "model": "Custom Wide Resnet",
+    "hardware": "Paperspace Volta (V100)",
+    "costPerHour": 2.30,
+    "timestamp": "2018-04-19",
+    "misc": {
+        "model implementation": "https://github.com/fastai/imagenet-fast/blob/e93593ca0a7e226141050cbd55622ff08b0632c3/cifar10/models/wideresnet.py#L81",
+        "1cycle parameters": "cycles: 30, learning-rates: 20,20, cyclical max/min momentum: 0.95,0.85",
+        "paper": "A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay: https://arxiv.org/abs/1803.09820",
+        "fastai master sha1": "https://github.com/fastai/fastai/commit/e2415fe7364ef9a2b911cbf09114cd721ca2502e",
+        "pytorch master sha1": "https://github.com/pytorch/pytorch/commit/354dac976905ba718ea94a73c11587438ae86cde"
+    }
+}
