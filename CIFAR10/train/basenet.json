@@ -17,7 +17,7 @@
             "lr_schedule" : "one cycle per Leslie Smith -- increase from 0 to 0.1 linearly over 15 epochs, back to 0.005 over 15 epochs, then down to 0 over 5 epochs.  Any extra time spent at 0.0005.",
             "weight_decay" : 5e-4,
             "momentum" : 0.9,
-            "batch_size" : 128,
+            "batch_size" : 128
         }
     }
 }
