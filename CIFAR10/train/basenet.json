@@ -1,0 +1,14 @@
+{
+    "version": "v1.0",
+    "author": "bkj",
+    "authorEmail": "ben@canfield.io",
+    "framework": "pytorch",
+    "codeURL": "https://github.com/bkj/basenet/tree/49b2b61e5b9420815c64227c5a10233267c1fb14/examples",
+    "model": "Resnet18 + minor modifications",
+    "hardware": "V100 (AWS p3.2xlarge)",
+    "costPerHour": 3.060,
+    "timestamp": "2018-04-20",
+    "misc": {
+        "comments" : "Hit 0.94 threshold in 4/5 runs. Reporting median run here."
+    }
+}
