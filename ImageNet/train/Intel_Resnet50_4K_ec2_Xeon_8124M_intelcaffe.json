@@ -25,7 +25,7 @@
           {"learning_rate": 1.6, "epochs": 27},
           {"learning_rate": 0.16, "epochs": 30},
           {"learning_rate": 0.016, "epochs": 20},
-          {"learning_rate": 0.0016, "epochs": 1}
+          {"learning_rate": 0.0016, "epochs": 4}
         ]
     }
 }
