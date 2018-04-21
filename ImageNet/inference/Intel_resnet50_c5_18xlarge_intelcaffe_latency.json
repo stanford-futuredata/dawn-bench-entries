@@ -1,0 +1,17 @@
+{
+    "version": "v1.0",
+    "author": "Intel(R) Corporation",
+    "authorEmail": "daisy.deng@intel.com",
+    "framework": "Intel(R) Optimized Caffe",
+    "codeURL": "https://github.com/intel/caffe/tree/DAWN_Bench",
+    "model": "ResNet50",
+    "hardware": "Amazon EC2 [c5.18xlarge]",
+    "latency": 9.96,
+    "top5Accuracy": 93.07,
+    "timestamp": "2018-4-20",
+    "misc": {
+        "Intel(R) Optimized Caffe": "https://github.com/intel/caffe/tree/DAWN_Bench, commit 7e45219",
+        "Intel(R) MKLDNN": "464c268e",
+        "Data Set": "please use raw lmdb for inference, to create raw lmdb you can use 'sh examples/imagenet/create_imagenet_raw.sh" 
+    }
+}
