@@ -1,4 +1,4 @@
-epoch	hours 	top1Accuracy
+﻿epoch	hours	top1Accuracy
 1	0.011362	43.18
 2	0.022116	48.73
 3	0.033042	62.68
