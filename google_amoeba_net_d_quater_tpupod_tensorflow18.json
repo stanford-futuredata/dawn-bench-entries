@@ -1,0 +1,23 @@
+{
+  "version": "v1.0",
+  "author": "Google",
+  "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
+  "framework": "TensorFlow 1.8.0-rc1",
+  "codeURL": "https://github.com/tensorflow/tpu/tree/e5c126d66aa3d25e0cb066bdf7fc46f98fe59901/models/experimental/amoeba_net/",
+  "model": "AmoebaNet-D N6F256",
+  "hardware": "1/4 of a TPUv2 Pod",
+  "timestamp": "2018-04-20",
+  "misc": {
+    "optimizer": "RMSProp",
+    "movingAverageDecay": 0.9999,
+    "weightDecay": 0.00004,
+    "batchSize": 4096,
+    "warmUp": "the learning rate starts at 0, then it increases linearly per iteration for the first 3 epochs",
+    "exponentialDecay": "The initial learning rate is 10.24, it decrease by a factor of 0.88 every one epoch",
+    "numEpochs": 41,
+    "includeCheckpointTime": true,
+    "linkToPaper": "https://arxiv.org/pdf/1802.01548.pdf",
+    "linkToNormalCellDiagram": "https://goo.gl/gKt4fL",
+    "linkToReductionCellDiagram": "https://goo.gl/a57tsX"
+  }
+}
