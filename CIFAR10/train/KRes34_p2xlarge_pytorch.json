@@ -9,7 +9,6 @@
     "costPerHour": 0.9,
     "timestamp": "2018-04-20",
     "misc": {
-        "CUDA version": "8.0",
-        "milestones": "[50,70,100]"
+        "CUDA version": "8.0"
     }
 }
