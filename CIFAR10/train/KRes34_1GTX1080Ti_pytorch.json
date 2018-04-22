@@ -14,6 +14,7 @@
     	"weightDecay": 0.0001,
     	"batchSize": 128,
     	"epoch": 200,
+    	"LR": 0.1,
     	"MultiStepLR_Milestones": "[50,100,150]",
     	"MultiStepLR_Gamma": "0.1"
 	}
