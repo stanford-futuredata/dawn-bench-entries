@@ -1,0 +1,23 @@
+{
+    "version": "v1.0",
+    "author": "Chen Wang",
+    "authorEmail": "wang.chen@zoho.com",
+    "framework": "PyTorch 0.3.1",
+    "codeURL": "https://github.com/wang-chen/KervNets/tree/63d69aee17c215419760739c3690837f221ee124",
+    "model": "KervResNet34",
+    "hardware": "1 GPU (Nvidia GeForce GTX 1080 Ti)",
+    "timestamp": "2018-04-20",
+    "misc": {
+        "CUDA version": "8.0",
+        "optimizer": "SGD with Momentum",
+    	"momentum": 0.9,
+    	"weightDecay": 0.0001,
+    	"batchSize": 128,
+    	"schedule": [
+        {"learning_rate": 0.1, "epochs": 50},
+        {"learning_rate": 0.01, "epochs": 50},
+        {"learning_rate": 0.001, "epochs": 50},
+        {"learning_rate": 0.0001, "epochs": 50}
+        ]
+	}
+}
