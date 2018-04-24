@@ -1,0 +1,31 @@
+{
+    "version": "v1.0",
+    "author": "fast.ai + students team: Jeremy Howard, Andrew Shaw, Brett Koonce, Sylvain Gugger",
+    "authorEmail": "j@fast.ai",
+    "framework": "fastai / pytorch",
+    "codeURL": "https://github.com/fastai/imagenet-fast/blob/e47cc1a0a5e1b14c75b26a3ed67a4346124568a7/aws/do_nosh.sh",
+    "model": "Resnet 50",
+    "hardware": "8 * V100 (AWS p3.16xlarge)",
+    "costPerHour": 24.48,
+    "timestamp": "2018-04-20",
+    "misc": {
+        "model implementation": "https://github.com/pytorch/vision/commit/9889de1d9cf6604779e4f3ec1c5f4016f0b2a66f",
+        "fastai master sha1": "https://github.com/fastai/fastai/commit/e2415fe7364ef9a2b911cbf09114cd721ca2502e",
+        "pytorch master sha1": "https://github.com/pytorch/pytorch/commit/8849bea120e0c3a4631f6c97f01c55819df14beb",
+        "backend": "NCCL 2.1.15",
+        "optimizer": "SGD with Momentum",
+        "momentum": 0.9,
+        "weightDecay": 0.0001,
+        "batchSize": 128,
+        "warmUp": "the learning rate starts at 0.1, then it increases linearly per batch for the first 4 epochs",
+        "schedule": [
+          {"learning_rate": 0.1, "epochs": 1},
+          {"learning_rate": 0.2, "epochs": 1},
+          {"learning_rate": 0.3, "epochs": 1},
+          {"learning_rate": 0.4, "epochs": 17},
+          {"learning_rate": 0.04, "epochs": 14},
+          {"learning_rate": 0.004, "epochs": 8},
+          {"learning_rate": 0.0004, "epochs": 3}
+        ]
+    }
+}
