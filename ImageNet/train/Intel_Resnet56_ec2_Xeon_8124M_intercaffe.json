@@ -8,6 +8,7 @@
     "hardware": "128 nodes with Xeon Platinum 8124M / 144 GB / 36 Cores (Amazon EC2 [c5.18xlarge])",
     "timestamp": "2018-04-19",
     "logFilename": "https://github.com/intel/caffe/tree/DAWN_Bench/models/intel_optimized_models/multinode/resnet_56_128_nodes_4k_batch/outputCluster-skx-128.txt.tgz",
+    "usedBlacklist": "true",
     "misc": {
         "Intel(R) Optimized Caffe": "https://github.com/intel/caffe/tree/DAWN_Bench, commit abf2a5c",
         "Intel(R) MKLDNN": "https://github.com/intel/mkl-dnn, commit 464c268e",
