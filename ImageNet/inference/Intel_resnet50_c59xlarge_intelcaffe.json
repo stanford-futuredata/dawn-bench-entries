@@ -10,7 +10,7 @@
     "cost": 2.34e-06,
     "top5Accuracy": 93.07,
     "timestamp": "2018-4-18",
-    "usedBlacklist": "true",
+    "usedBlacklist": true,
     "misc": {
         "Intel(R) Optimized Caffe": "https://github.com/intel/caffe/tree/DAWN_Bench, commit 4c6521d",
         "Intel(R) MKLDNN": "464c268e",
