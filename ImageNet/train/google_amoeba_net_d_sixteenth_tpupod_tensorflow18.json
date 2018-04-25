@@ -18,6 +18,8 @@
     "includeCheckpointTime": true,
     "linkToPaper": "https://arxiv.org/pdf/1802.01548.pdf",
     "linkToNormalCellDiagram": "https://goo.gl/gKt4fL",
-    "linkToReductionCellDiagram": "https://goo.gl/a57tsX"
+    "linkToReductionCellDiagram": "https://goo.gl/a57tsX",
+    "usedBlacklist": true,
+    "numValidationImages": 50000
   }
 }
