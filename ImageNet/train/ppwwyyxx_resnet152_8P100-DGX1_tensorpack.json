@@ -7,6 +7,7 @@
     "model": "ResNet152",
     "hardware": "8 P100 / 512 GB / 40 CPU (NVIDIA DGX-1)",
     "timestamp": "2017-12-05",
-		"logFilename": "https://github.com/stanford-futuredata/dawn-bench-entries/files/1531578/log.log",
-    "misc": "CUDA version: 8.0, CuDNN version: 6.0, TensorFlow version: 1.4; tensorpack commit hash: 4e933ef99; learning rate: (0,1e-1), (30,1e-2), (60,1e-3); total batch size: 256"
+    "logFilename": "https://github.com/stanford-futuredata/dawn-bench-entries/files/1531578/log.log",
+    "misc": "CUDA version: 8.0, CuDNN version: 6.0, TensorFlow version: 1.4; tensorpack commit hash: 4e933ef99; learning rate: (0,1e-1), (30,1e-2), (60,1e-3); total batch size: 256",
+    "usedBlacklist": true
 }
