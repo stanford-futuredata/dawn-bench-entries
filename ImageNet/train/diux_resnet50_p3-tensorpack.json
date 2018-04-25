@@ -40,5 +40,6 @@
 				"epochs": 20
 			}
 		]
-	}
+	},
+	"usedBlacklist": true
 }
