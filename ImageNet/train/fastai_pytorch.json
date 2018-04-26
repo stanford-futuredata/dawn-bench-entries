@@ -8,6 +8,7 @@
     "hardware": "8 * V100 (AWS p3.16xlarge)",
     "costPerHour": 24.48,
     "timestamp": "2018-04-20",
+    "usedBlacklist": true,
     "misc": {
         "model implementation": "https://github.com/pytorch/vision/commit/9889de1d9cf6604779e4f3ec1c5f4016f0b2a66f",
         "fastai master sha1": "https://github.com/fastai/fastai/commit/e2415fe7364ef9a2b911cbf09114cd721ca2502e",
