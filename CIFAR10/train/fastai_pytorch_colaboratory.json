@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "fast.ai + students team: Jeremy Howard, Andrew Shaw, Brett Koonce, Sylvain Gugger, Phani Srikanth",
+    "authorEmail": "j@fast.ai",
+    "framework": "fastai / pytorch",
+    "codeURL": "https://colab.research.google.com/drive/126MCk8JWptxSYunHeBkG8KBCyqLV6V5L",
+    "model": "Custom Wide Resnet",
+    "hardware": "Google Colaboratory",
+    "costPerHour": 0.0,
+    "timestamp": "2018-04-20",
+    "misc": {
+        "model implementation": "https://colab.research.google.com/drive/126MCk8JWptxSYunHeBkG8KBCyqLV6V5L",
+        "1cycle parameters": "cycles: 30, learning-rates: 10,13.68, cyclical max/min momentum: 0.95,0.85",
+        "paper": "A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay: https://arxiv.org/abs/1803.09820",
+        "fastai master sha1": "https://github.com/fastai/fastai/commit/e2415fe7364ef9a2b911cbf09114cd721ca2502e",
+        "pytorch master sha1": "https://github.com/pytorch/pytorch/commit/354dac976905ba718ea94a73c11587438ae86cde"
+    }
+}
