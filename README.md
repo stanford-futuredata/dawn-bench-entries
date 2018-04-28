@@ -430,3 +430,5 @@ JSON files are named `[author name]_[model name]_[hardware tag]_[framework].json
 ## FAQ
 - **Can spot instances be used for cost metrics?** For submissions including cost, please use on-demand, i.e., non-preemptible, instance pricing. Spot pricing is too volatile for the current release the benchmark. We're open to suggestions on better ways to deal with pricing volatility, so if you have ideas, please pitch them on the [google group](https://groups.google.com/forum/#!forum/dawn-bench-community)
 - **Is validation time included in training time?** No, you don't need to include the time required to calculate validation accuracy and save checkpoints.
+
+*Disclosure: The Stanford DAWN research project is a five-year industrial affiliates program at Stanford University and is financially supported in part by founding members including Intel, Microsoft, NEC, Teradata, VMWare, and Google. For more information, including information regarding Stanford’s policies on openness in research and policies affecting industrial affiliates program membership, please see [DAWN's membership page](http://dawn.cs.stanford.edu/members/).*
