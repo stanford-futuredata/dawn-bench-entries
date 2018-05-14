@@ -14,6 +14,7 @@
     "weightDecay": 0.0001,
     "batchSize": 1024,
     "warmUp": "the learning rate starts at 0, then it increases linearly per iteration for the first 5 epochs",
+    "evalBatchSize": "When reproducing the result, please pass in --eval_batch_size=1000 to the benchmark script. The default value of 1024 skips the last 800 images in the evaluation set.",
     "schedule": [
       {"learning_rate": 0.0, "epochs": 1},
       {"learning_rate": 0.08, "epochs": 1},
