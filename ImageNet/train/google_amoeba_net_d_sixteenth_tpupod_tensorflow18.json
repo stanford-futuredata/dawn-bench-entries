@@ -7,7 +7,7 @@
   "model": "AmoebaNet-D N6F256",
   "hardware": "1/16 of a TPUv2 Pod",
   "timestamp": "2018-04-20",
-  "evalBatchSize", 1000,
+  "evalBatchSize": 1000,
   "misc": {
     "optimizer": "RMSProp",
     "movingAverageDecay": 0.9999,
