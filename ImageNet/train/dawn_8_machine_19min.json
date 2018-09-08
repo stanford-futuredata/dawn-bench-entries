@@ -1,0 +1,42 @@
+{
+    "version": "v1.0",
+    "author": "Andrew Shaw, Yaroslav Bulatov, Jeremy Howard",
+    "authorEmail": "andrew.t.shaw@gmail.com",
+    "framework": "ncluster / pytorch",
+    "codeURL": "https://github.com/diux-dev/imagenet18/blob/master/training/train_imagenet_nv.py",
+    "model": "Resnet 50",
+    "hardware": "64 * V100 (8 machines - AWS p3.16xlarge)",
+    "costPerHour": 24.48,
+    "timestamp": "2018-09-07",
+    "usedBlacklist": true,
+    "misc": {
+        "model implementation": "https://github.com/diux-dev/imagenet18/blob/24d21e24393046164fcc6d1ea3be18d2831ff9e6/training/resnet.py",
+        "training schedule": "https://github.com/diux-dev/imagenet18/blob/4edeea10854f8913f6bf3298c1eec72bf59d0594/train.py#L64",
+        "backend": "NCCL 2.2.13+cuda9.2",
+        "optimizer": "SGD with Momentum",
+        "train.py args": "https://github.com/diux-dev/imagenet18/blob/24d21e24393046164fcc6d1ea3be18d2831ff9e6/train.py#L174",
+        "momentum": 0.9,
+        "weightDecay": 0.0001,
+        "batchSize": [
+          {"batch_size": 8192, "epochs": 6},
+          {"batch_size": 16384, "epochs": 8},
+          {"batch_size": 8192, "epochs": 3},
+          {"batch_size": 14336, "epochs": 12},
+          {"batch_size": 8192, "epochs": 6}
+        ],
+        "imageSize": [
+            {"image_size": 128, "epochs": 14},
+            {"image_size": 224, "epochs": 15},
+            {"image_size": 288, "epochs": 6}
+        ],
+        "schedule": [
+          {"learning_rate": [1.92,3.84], "epochs": 6, "linear": true},
+          {"learning_rate": 3.84, "epochs": 5},
+          {"learning_rate": [3.84,1.92], "epochs": 3, "linear": true},
+          {"learning_rate": 1.92, "epochs": 3},
+          {"learning_rate": [1.92,0.336], "epochs": 6, "linear": true},
+          {"learning_rate": [0.336,0.0336], "epochs": 6, "linear": true},
+          {"learning_rate": [0.0192,0.00192], "epochs": 6, "linear": true}
+        ]
+    }
+}
