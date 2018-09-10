@@ -14,7 +14,7 @@
         "optimizer": "SGD with Momentum",
         "momentum": 0.9,
         "weightDecay": 0.0001,
-        "schedule overview": "Base learning rate lr=1.88, schedule consists of several linear scaling segments as well as manual learning rate changes, alongside changing image size and batch size: {'ep':0,  'sz':128, 'bs':64}, {'ep':(0,6),  'lr':(lr,lr*2)}, {'ep':6, 'bs':128,}, {'ep':6, 'lr':lr*2}, {'ep':16, 'sz':224,'bs':64}, {'ep':16, 'lr':lr}, {'ep':19, 'bs':192, 'keep_dl':True}, {'ep':19, 'lr':2*lr/(10/1.5)}, {'ep':31, 'lr':2*lr/(100/1.5)}, {'ep':37, 'sz':288, 'bs':128, 'min_scale':0.5}, {'ep':37, 'lr':2*lr/100}, {'ep':(38,50),'lr':2*lr/1000}]"
+        "schedule overview": "Base learning rate lr=1.88, schedule consists of several linear scaling segments as well as manual learning rate changes, alongside changing image size and batch size: {'ep':0,  'sz':128, 'bs':64}, {'ep':(0,6),  'lr':(lr,lr*2)}, {'ep':6, 'bs':128,}, {'ep':6, 'lr':lr*2}, {'ep':16, 'sz':224,'bs':64}, {'ep':16, 'lr':lr}, {'ep':19, 'bs':192, 'keep_dl':True}, {'ep':19, 'lr':2*lr/(10/1.5)}, {'ep':31, 'lr':2*lr/(100/1.5)}, {'ep':37, 'sz':288, 'bs':128, 'min_scale':0.5}, {'ep':37, 'lr':2*lr/100}, {'ep':(38,50),'lr':2*lr/1000}]",
         "schedule": [
             {"learning_rate": 1.8819957971572876, "example": 0},
             {"learning_rate": 1.8839914798736572, "example": 8192},
@@ -972,6 +972,6 @@
             {"batch_size": 24576.0, "example": 24344320},
             {"batch_size": 16384.0, "example": 47407360}            
         ]
-    }
+    },
   "usedBlacklist": true
 }
