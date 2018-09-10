@@ -15,6 +15,8 @@
         "backend": "NCCL 2.2.13+cuda9.2",
         "optimizer": "SGD with Momentum",
         "train.py args": "https://github.com/diux-dev/imagenet18/blob/24d21e24393046164fcc6d1ea3be18d2831ff9e6/train.py#L174",
+        "misc": "Tricks - http://www.fast.ai/2018/08/10/fastai-diu-imagenet/. Progressive resizing, variable batch size, scaling learning rate to batch size, rectangular image validation, one-cycleish learning schedule, removing batch-norm from weight decay",
+        "learning_rate_misc": "Warmup 14 epochs - Increase learning rate to 2x and then back down. Divide learning rate by 10 every 6 epochs after (with linear smoothing). Learning rate is adjusted to scale with batch size",
         "momentum": 0.9,
         "weightDecay": 0.0001,
         "batchSize": [
