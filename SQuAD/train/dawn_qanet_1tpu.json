@@ -6,6 +6,7 @@
     "model": "QANet",
     "hardware": "1 TPUv2",
     "timestamp": "2018-04-20",
+    "codeURL": "https://github.com/tensorflow/tpu/tree/master/models/experimental/qanet",
     "misc": {
       "comment": "Runtime includes checkpoint saving time",
       "paper_link": "https://openreview.net/forum?id=B14TlG-RW"
