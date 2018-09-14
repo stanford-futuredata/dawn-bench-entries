@@ -1,6 +1,6 @@
 {
     "version": "v1.0",
-    "author": "Yaroslav Bulatov, Andrew Shaw, Jeremy Howard",
+    "author": "fast.ai/DIUx (Yaroslav Bulatov, Andrew Shaw, Jeremy Howard)",
     "authorEmail": "yaroslavvb@gmail.com",
     "framework": "PyTorch 0.4.1",
     "codeURL": "https://github.com/diux-dev/imagenet18/tree/59a8f25171fb8cede51db9187a32fc8f802384a0",
