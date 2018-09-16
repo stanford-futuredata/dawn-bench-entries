@@ -1,0 +1,41 @@
+{
+    "version": "v1.0",
+    "author": "fast.ai/DIUx (Yaroslav Bulatov, Andrew Shaw, Jeremy Howard)",
+    "authorEmail": "yaroslavvb@gmail.com",
+    "framework": "PyTorch 0.4.1",
+    "codeURL": "https://github.com/diux-dev/imagenet18/tree/59a8f25171fb8cede51db9187a32fc8f802384a0",
+    "model": "ResNet-50",
+    "hardware": "16 p3.16xlarge (AWS)",
+    "costPerHour": 391.68,
+    "timestamp": "2018-09-06",
+    "misc": {
+        "model implementation": "https://github.com/diux-dev/imagenet18/blob/086675a6df3d468e89c651ae4c75f31e5b3f381d/training/resnet.py",
+        "backend": "NCCL 2.2.13+cuda9.2",
+        "optimizer": "SGD with Momentum",
+        "momentum": 0.9,
+        "weightDecay": 0.0001,
+        "schedule": [
+            {"learning_rate": [1.88, 3.76], "epochs": 6, "linear": true},
+            {"learning_rate": [1.88], "epochs": 10},
+            {"learning_rate": [0.2506667], "epochs": 3},
+            {"learning_rate": [0.02506667], "epochs": 12},
+            {"learning_rate": [0.0376], "epochs": 6},
+            {"learning_rate": [0.0376], "epochs": 3}
+        ],
+        
+        "imageSize": [
+            {"image_size": 128, "epochs": 16},
+            {"image_size": 224, "epochs": 21},
+            {"image_size": 288, "epochs": 3}
+        ],
+
+        "batchSize": [
+            {"batch_size": 8192, "epochs": 6},
+            {"batch_size": 16384, "epochs": 10},
+            {"batch_size": 8192, "epochs": 3},
+            {"batch_size": 24576, "epochs": 18},
+            {"batch_size": 16384, "epochs": 3}
+        ]
+    },
+    "usedBlacklist": true
+}
