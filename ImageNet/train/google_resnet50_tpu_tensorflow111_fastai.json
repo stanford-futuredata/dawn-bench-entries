@@ -1,0 +1,29 @@
+{
+  "version": "v1.0",
+  "author": "Google Cloud TPU",
+  "authorEmail": "cloud-tpu-dawnbench@googlegroups.com",
+  "framework": "TensorFlow v1.11.0",
+  "codeURL": "https://github.com/tensorflow/tpu/blob/645a4552e87c1c2c76618a8a554fefcabbfad217/models/official/resnet/benchmark/resnet_benchmark.py",
+  "model": "ResNet50",
+  "hardware": "GCP n1-standard-2, Cloud TPU",
+  "costPerHour": 4.595,
+  "timestamp": "2018-09-29",
+  "misc": {
+    "optimizer": "SGD with Momentum",
+    "momentum": 0.9,
+    "weightDecay": 0.0001,
+    "batchSize": 1024,
+    "additional arguments": "--use_fast_lr=True --data_dir_small=<resized ImageNet directory>",
+    "additional info": "We have re-implemented the fast.ai techniques detaield in their 2018-04-20 submission to DAWNBench with progressive image sizes and a more aggressive learning rate schedule.",
+    "warmUp": "The learning rate starts at 0, then it increases linearly per iteration for the first 4 epochs",
+    "schedule": [
+      {"learning_rate": 0.0, "epochs": 1},
+      {"learning_rate": 0.1333, "epochs": 1},
+      {"learning_rate": 0.2667, "epochs": 1},
+      {"learning_rate": 0.4, "epochs": 17},
+      {"learning_rate": 0.04, "epochs": 14},
+      {"learning_rate": 0.004, "epochs": 8},
+      {"learning_rate": 0.0004, "epochs": 3}
+    ]
+  }
+}
