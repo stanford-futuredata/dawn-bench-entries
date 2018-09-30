@@ -1,0 +1,15 @@
+{
+    "version": "v1.0",
+    "author": "Runqi Yang, Facebook ParlAI, Brett Koonce",
+    "authorEmail": "koonce@gmail.com",
+    "framework": "Pytorch 0.4.1",
+    "model": "DrQA",
+    "hardware": "1 V100",
+    "costPerHour": 3.06,
+    "timestamp": "2018-09-29",
+    "codeURL": "https://github.com/brettkoonce/DrQA",
+    "commitHash": "591308664b69764f70eb7330a83f1c632eb17149",
+    "misc": {
+      "paper_link": "http://www-cs.stanford.edu/people/danqi/papers/acl2017.pdf"
+    }
+}
