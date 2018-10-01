@@ -14,7 +14,7 @@
     "weightDecay": 0.0001,
     "batchSize": 1024,
     "additional arguments": "--use_fast_lr=True --data_dir_small=<resized ImageNet directory>",
-    "additional info": "We have re-implemented the fast.ai techniques detaield in their 2018-04-20 submission to DAWNBench with progressive image sizes and a more aggressive learning rate schedule.",
+    "additional info": "We have re-implemented the fast.ai techniques detailed in their 2018-04-20 submission to DAWNBench with progressive image sizes and a more aggressive learning rate schedule.",
     "warmUp": "The learning rate starts at 0, then it increases linearly per iteration for the first 4 epochs",
     "schedule": [
       {"learning_rate": 0.0, "epochs": 1},
