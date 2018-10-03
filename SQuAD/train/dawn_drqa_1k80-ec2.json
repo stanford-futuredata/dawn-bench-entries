@@ -10,6 +10,10 @@
     "codeURL": "https://github.com/hitvoice/DrQA",
     "commitHash": "d9081fea48de31711c17a9af6c2b1b99dadcfd71",
     "misc": {
-      "paper_link": "http://www-cs.stanford.edu/people/danqi/papers/acl2017.pdf"
+      "paper_link": "http://www-cs.stanford.edu/people/danqi/papers/acl2017.pdf",
+      "batch_size": "128",
+      "optimizer": "adamax",
+      "learning_rate": "0.001",
+      "dropout": "0.4"
     }
 }
