@@ -4,7 +4,7 @@
     "authorEmail": "runqiyang@gmail.com",
     "framework": "Pytorch 0.4.1",
     "model": "DrQA",
-    "hardware": "1 V100",
+    "hardware": "1 V100 / AWS p3.2xlarge",
     "costPerHour": 3.06,
     "timestamp": "2018-09-29",
     "codeURL": "https://github.com/hitvoice/DrQA",
