@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "Runqi Yang, Facebook ParlAI, Brett Koonce",
+    "authorEmail": "runqiyang@gmail.com",
+    "framework": "Pytorch 0.4.1",
+    "model": "DrQA",
+    "hardware": "1 NVidia 1070 Ti (dev box)",
+    "timestamp": "2018-09-30",
+    "codeURL": "https://github.com/hitvoice/DrQA",
+    "commitHash": "d9081fea48de31711c17a9af6c2b1b99dadcfd71",
+    "misc": {
+      "paper_link": "http://www-cs.stanford.edu/people/danqi/papers/acl2017.pdf",
+      "batch_size": "128",
+      "optimizer": "adamax",
+      "learning_rate": "0.001",
+      "dropout": "0.4"
+    }
+}
