@@ -16,6 +16,7 @@
     "additional arguments": "--use_fast_lr=True --data_dir_small=<resized ImageNet directory>",
     "additional info": "We have re-implemented the fast.ai techniques detailed in their 2018-04-20 submission to DAWNBench with progressive image sizes and a more aggressive learning rate schedule.",
     "warmUp": "The learning rate starts at 0, then it increases linearly per iteration for the first 4 epochs",
+    "evalBatchSize": "When reproducing the result, please pass in --eval_batch_size=1000 to the benchmark script. The default value of 1024 skips the last 848 images in the evaluation set.",
     "schedule": [
       {"learning_rate": 0.0, "epochs": 1},
       {"learning_rate": 0.1333, "epochs": 1},
