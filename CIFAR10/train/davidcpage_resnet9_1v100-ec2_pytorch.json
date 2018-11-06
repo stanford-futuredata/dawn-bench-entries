@@ -1,0 +1,16 @@
+{
+    "version": "v1.0",
+    "author": "davidcpage",
+    "authorEmail": "david@myrtlesoftware.com",
+    "framework": "pytorch 0.4.0",
+    "codeURL": "https://github.com/davidcpage/cifar10-fast/tree/d31ad8d393dd75147b65f261dbf78670a97e48a8", 
+    "model": "Custom ResNet 9",
+    "hardware": "V100 (AWS p3.2xlarge)",
+    "costPerHour": 3.060,
+    "timestamp": "2018-11-06",
+    "misc": {
+        "commandLine" : "python dawn.py",
+        "CUDA version": "9.0",
+        "CuDNN version": "7.1.2"
+    }
+}
