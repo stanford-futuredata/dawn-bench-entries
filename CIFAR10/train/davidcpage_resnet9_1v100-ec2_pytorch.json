@@ -1,0 +1,25 @@
+{
+    "version": "v1.0",
+    "author": "David Page, myrtle.ai",
+    "authorEmail": "david@myrtlesoftware.com",
+    "framework": "pytorch 0.4.0",
+    "codeURL": "https://github.com/davidcpage/cifar10-fast/tree/d31ad8d393dd75147b65f261dbf78670a97e48a8", 
+    "model": "Custom ResNet 9",
+    "hardware": "V100 (AWS p3.2xlarge)",
+    "costPerHour": 3.060,
+    "timestamp": "2018-11-06",
+    "misc": {
+        "optimizer": "SGD with Nesterov Momentum",
+        "momentum": 0.9,
+        "weightDecay": 5e-4,
+        "batchSize": 512,
+        "learningRate": {
+            "type": "piecewiseLinear",
+            "epochs": [0, 5, 24], 
+            "values": [0, 0.4, 0]
+        },
+        "CUDA version": "9.0",
+        "CuDNN version": "7.1.2",
+        "commandLine" : "python dawn.py"
+    }
+}
