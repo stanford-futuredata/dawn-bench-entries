@@ -1,0 +1,17 @@
+{
+    "version": "v1.0",
+    "author": "Laurent Mazare",
+    "authorEmail": "lmazare@gmail.com",
+    "framework": "PyTorch v1.0.0.dev20181116",
+    "codeURL": "https://github.com/LaurentMazare/deep-models/tree/master/cifar-10",
+    "model": "Custom ResNet 9 using PyTorch JIT in C++",
+    "hardware": "1 P100 / 128 GB / 16 CPU",
+    "latency": 0.828,
+    "cost": null,
+    "top1Accuracy": 94.53,
+    "timestamp": "2018-11-19",
+    "misc": {
+        "CUDA version": "9.1",
+        "CuDNN version": "7.1.2"
+    }
+}
