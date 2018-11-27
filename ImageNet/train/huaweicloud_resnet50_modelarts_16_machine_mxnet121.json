@@ -15,12 +15,12 @@
         "momentum": 0.9,
         "weightDecay": 0.0001,
         "schedule": [
-            {'ep':0, 'lr':1.92, 'mode':'warmup'},
-            {'ep':6, 'lr':3.84, 'mode':'node'},
-            {'ep':11, 'lr':3.84, 'mode':'node'},
-            {'ep':14, 'lr':3.84, 'mode':'linear'},
-            {'ep':17, 'lr':1.92, 'mode':'cosine'},
-            {'ep':32, 'lr':0.0192, 'mode':'node'},
+            {"ep":0, "lr":1.92, "mode":"warmup"},
+            {"ep":6, "lr":3.84, "mode":"node"},
+            {"ep":11, "lr":3.84, "mode":"node"},
+            {"ep":14, "lr":3.84, "mode":"linear"},
+            {"ep":17, "lr":1.92, "mode":"cosine"},
+            {"ep":32, "lr":0.0192, "mode":"node"},
         ],
          "imageSize": [
             {"image_size": 128, "epochs": 14},
