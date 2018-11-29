@@ -39,5 +39,5 @@
             {"batch_size": 16384, "epochs": 4}
         ]
     },
-    "usedBlacklist": false
+    "usedBlacklist": true
 }
