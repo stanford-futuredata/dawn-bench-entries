@@ -1,7 +1,7 @@
 {
     "version": "v1.0",
     "author": "ModelArts Service of Huawei Cloud",
-    "authorEmail": "ModelArts Service of Huawei Cloud",
+    "authorEmail": "tianchudong@huawei.com",
     "framework": "MXNet v1.2.1",
     "codeURL": "https://github.com/huawei-clouds/modelarts-example/blob/eb04ab2830814a70667210ee97c04ddb2aaa0059/MXNet-ImageNet-10min/16_32_dysizelr.py",
     "model": "ResNet-50",
