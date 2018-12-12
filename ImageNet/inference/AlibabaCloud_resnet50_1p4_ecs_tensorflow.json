@@ -10,7 +10,7 @@
     "cost": 1.21e-06,
     "top5Accuracy": 93.16,
     "timestamp": "2018-12-12",
-    "misc": {        
+    "misc": {   
         "TensorFlow": "NVIDIA Release 18.09 (build 687556) from NVIDIA GPU Cloud, please pull the docker container from nvcr.io/nvidia/tensorflow:18.09-py2"
         "TensorFlow Benchmark": "please checkout branch 'cnn_tf_v1.10_compatible' from https://github.com/tensorflow/benchmarks"          
         "CUDA version": "10.0.130",        
