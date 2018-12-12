@@ -1,0 +1,20 @@
+{
+    "version": "v1.0",
+    "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud",
+    "authorEmail": "wsh164800@alibaba-inc.com, youliang.yl@alibaba-inc.com",
+    "framework": "TensorFlow",
+    "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
+    "model": "ResNet50",
+    "hardware": "Alibaba Cloud [ecs.gn5i-c8g1.2xlarge]",
+    "latency": 4.218,
+    "cost": 1.54e-06,
+    "top5Accuracy": 93.16,
+    "timestamp": "2018-12-12",
+    "misc": {
+        "TensorFlow": "NVIDIA Release 18.09 (build 687556) from NVIDIA GPU Cloud, please pull the docker container from nvcr.io/nvidia/tensorflow:18.09-py2",
+        "TensorFlow Benchmark": "please checkout branch 'cnn_tf_v1.10_compatible' from https://github.com/tensorflow/benchmarks",
+        "CUDA version": "10.0.130",
+        "Data Set": "please use TFRecords file format for inference, to create TFRecords file you can use https://github.com/tensorflow/models/blob/master/research/inception/inception/data/build_imagenet_data.py"
+    }
+}
+
