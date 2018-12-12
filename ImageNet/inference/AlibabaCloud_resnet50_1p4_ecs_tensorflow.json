@@ -1,6 +1,6 @@
 {
     "version": "v1.0",
-    "author": "Perseus AI Cloud Acceleration Framework team in Alibaba Cloud",
+    "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud",
     "authorEmail": "wsh164800@alibaba-inc.com, youliang.yl@alibaba-inc.com",
     "framework": "TensorFlow",
     "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
