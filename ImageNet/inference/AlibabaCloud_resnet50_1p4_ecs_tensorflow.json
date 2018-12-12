@@ -4,7 +4,7 @@
     "authorEmail": "wsh164800@alibaba-inc.com, youliang.yl@alibaba-inc.com",
     "framework": "TensorFlow",
     "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
-    "model": "ResNet 50",
+    "model": "ResNet50",
     "hardware": "Alibaba Cloud [ecs.gn5i-c8g1.2xlarge]",
     "latency": 4.218,
     "cost": 1.54e-06,
