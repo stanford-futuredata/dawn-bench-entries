@@ -3,7 +3,7 @@
     "author": "ModelArts Service of Huawei Cloud",
     "authorEmail": "lipengfei44@huawei.com, tianchudong@huawei.com, chenyi61@huawei.com",
     "framework": "MXNet v1.2.1",
-    "codeURL": "https://github.com/huawei-clouds/modelarts-example/blob/eb04ab2830814a70667210ee97c04ddb2aaa0059/MXNet-ImageNet-10min/16_32_dysizelr.py",
+    "codeURL": "https://github.com/TccccD/modelarts-example/blob/f6937c85410d1f4ffc29221d30c7a0bdd41e21c2/MXNet-ImageNet-10min/16_32_dysizelr.py",
     "model": "ResNet-50",
     "hardware": "16 * 8 * Tesla-V100(ModelArts Service)",
     "timestamp": "2018-11-27",
@@ -33,7 +33,7 @@
 
         "batchSize": [
             {"batch_size": 8192, "epochs": 6},
-            {"batch_size": 16384, "epochs": 8},
+            {"batch_size": 20480, "epochs": 8},
             {"batch_size": 16384, "epochs": 3},
             {"batch_size": 20480, "epochs": 11},
             {"batch_size": 16384, "epochs": 3}
