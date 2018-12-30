@@ -3,10 +3,9 @@
     "author": "ModelArts Service of Huawei Cloud",
     "authorEmail": "lipengfei44@huawei.com, tianchudong@huawei.com, chenyi61@huawei.com",
     "framework": "MXNet v1.2.1",
-    "codeURL": "https://github.com/TccccD/modelarts-example/blob/f6937c85410d1f4ffc29221d30c7a0bdd41e21c2/MXNet-ImageNet-10min/16_32_dysizelr.py",
     "model": "ResNet-50",
     "hardware": "16 * 8 * Tesla-V100(ModelArts Service)",
-    "timestamp": "2018-11-27",
+    "timestamp": "2018-12-30",
     "misc": {
         "model implementation": "https://github.com/apache/incubator-mxnet/blob/251ae71a20d8318ab20f4c19520f74b881fdf3ff/example/image-classification/symbols/resnet-v1.py",
         "backend": "16 nodes (8 * V100 for each node)",
