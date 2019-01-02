@@ -32,7 +32,7 @@
 
         "batchSize": [
             {"batch_size": 8192, "epochs": 6},
-            {"batch_size": 20480, "epochs": 8},
+            {"batch_size": 16384, "epochs": 8},
             {"batch_size": 16384, "epochs": 3},
             {"batch_size": 20480, "epochs": 11},
             {"batch_size": 16384, "epochs": 3}
