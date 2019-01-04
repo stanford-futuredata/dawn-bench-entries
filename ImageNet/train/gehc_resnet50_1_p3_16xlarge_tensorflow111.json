@@ -1,0 +1,29 @@
+{
+    "version": "v1.0",
+    "author": "GE Healthcare",
+    "authorEmail": "Min.Zhang@ge.com",
+    "framework": "tensorflow 1.11 + horovod",
+    "codeURL": "https://github.com/mzhangatge/imagenet106",
+    "model": "Resnet 50 v1",
+    "hardware": "8 V100 (AWS Sagemaker p3.16xlarge)",
+    "costPerHour": 24.48,
+    "timestamp": "2018-12-30",
+    "usedBlacklist": true,
+    "misc": {
+        "Environment": "NCCL2.3.5+PY3.6.7+TF1.11.0+OPENMPI-3.1.2",
+        "optimizer": "SGD with Momentum",
+        "save_checkpoints_steps": 625,
+        "save_summary_steps": 625,
+        "sagemaker_submit_directory": "s3://sagemaker-us-east-1-752686809366/imagenet-ml-p3-16xlarge-2018-12-30-03-23-22-758/source/sourcedir.tar.gz",
+        "mom": 0.9,
+        "wdecay":0.0002,
+        "loss_scale":256,
+        "training_strategy": [
+            {"epoch":[0,6], "lr": [1.0,2.0],"lr_method":"linear","batch_size":740, "image_size":[128, 128], "data_dir":"160", "prefix":"train"},
+            {"epoch":[6,21], "lr": [2.0,0.45],"lr_method":"linear","batch_size":740, "image_size":[128, 128], "data_dir":"160", "prefix":"train"},
+            {"epoch":[21,32], "lr": [0.45,0.02],"lr_method":"exp","batch_size":256, "image_size":[224, 224], "data_dir":"320", "prefix":"train"},
+            {"epoch":[32,36], "lr": [0.02,0.004],"lr_method":"exp","batch_size":196, "image_size":[224, 224], "data_dir":"320", "prefix":"train"},
+            {"epoch":[36,40], "lr": [0.004,0.002],"lr_method":"exp","batch_size":128, "image_size":[288, 288], "data_dir":"320", "prefix":"train"}
+            ]
+    }
+}
