@@ -1,6 +1,6 @@
 {
     "version": "v1.0",
-    "author": "GE Healthcare",
+    "author": "GE Healthcare EdisonAITK",
     "authorEmail": "Min.Zhang@ge.com",
     "framework": "tensorflow 1.11 + horovod",
     "codeURL": "https://github.com/mzhangatge/imagenet106",
@@ -10,7 +10,7 @@
     "timestamp": "2018-12-30",
     "usedBlacklist": true,
     "misc": {
-        "Environment": "NCCL2.3.5+PY3.6.7+TF1.11.0+OPENMPI-3.1.2",
+        "Environment": "NCCL2.3.5+PY3.6.7+TF1.11.0+OPENMPI-3.1.2+EdisonAITK",
         "optimizer": "SGD with Momentum",
         "save_checkpoints_steps": 625,
         "save_summary_steps": 625,
