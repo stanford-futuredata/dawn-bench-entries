@@ -5,7 +5,7 @@
     "framework": "tensorflow 1.11 + horovod",
     "codeURL": "https://github.com/mzhangatge/imagenet106",
     "model": "Resnet 50 v1",
-    "hardware": "8 V100 (AWS Sagemaker p3.16xlarge)",
+    "hardware": "8*V100 (AWS Sagemaker p3.16xlarge)",
     "costPerHour": 24.48,
     "timestamp": "2018-12-30",
     "usedBlacklist": true,
