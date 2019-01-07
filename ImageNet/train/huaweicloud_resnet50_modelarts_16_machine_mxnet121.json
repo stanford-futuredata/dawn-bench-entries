@@ -1,34 +1,33 @@
 {
     "version": "v1.0",
     "author": "ModelArts Service of Huawei Cloud",
-    "authorEmail": "tianchudong@huawei.com",
+    "authorEmail": "lipengfei44@huawei.com, tianchudong@huawei.com, chenyi61@huawei.com",
     "framework": "MXNet v1.2.1",
-    "codeURL": "https://github.com/huawei-clouds/modelarts-example/blob/eb04ab2830814a70667210ee97c04ddb2aaa0059/MXNet-ImageNet-10min/16_32_dysizelr.py",
     "model": "ResNet-50",
-    "hardware": "16*8*Tesla-V100(ModelArts Service)",
-    "timestamp": "2018-11-27",
+    "hardware": "16 * 8 * Tesla-V100(ModelArts Service)",
+    "timestamp": "2018-12-30",
     "misc": {
         "model implementation": "https://github.com/apache/incubator-mxnet/blob/251ae71a20d8318ab20f4c19520f74b881fdf3ff/example/image-classification/symbols/resnet-v1.py",
-        "backend": "16 nodes (8*V100 for each node)",
+        "backend": "16 nodes (8 * V100 for each node)",
         "CUDA version": "9.0",
         "CuDNN version": "7.0.2",
         "optimizer": "NAG",
         "Initializer": "MSRAPrelu",
         "momentum": 0.9,
-        "weightDecay": 0.0001,
+        "weightDecay": 0.00011,
         "schedule": [
             {"ep":0, "lr":1.92, "mode":"warmup"},
             {"ep":6, "lr":3.84, "mode":"node"},
             {"ep":11, "lr":3.84, "mode":"node"},
             {"ep":14, "lr":3.84, "mode":"linear"},
             {"ep":17, "lr":1.92, "mode":"cosine"},
-            {"ep":32, "lr":0.0192, "mode":"node"}
+            {"ep":30, "lr":0.0192, "mode":"node"}
         ],
 
         "imageSize": [
             {"image_size": 128, "epochs": 14},
             {"image_size": 224, "epochs": 14},
-            {"image_size": 288, "epochs": 4}
+            {"image_size": 288, "epochs": 2}
         ],
 
         "batchSize": [
@@ -36,7 +35,7 @@
             {"batch_size": 16384, "epochs": 8},
             {"batch_size": 16384, "epochs": 3},
             {"batch_size": 20480, "epochs": 11},
-            {"batch_size": 16384, "epochs": 4}
+            {"batch_size": 16384, "epochs": 2}
         ]
     },
     "usedBlacklist": true
