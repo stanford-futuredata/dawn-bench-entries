@@ -3,11 +3,11 @@
     "author": "GE Healthcare EdisonAITK",
     "authorEmail": "Min.Zhang@ge.com",
     "framework": "tensorflow 1.11 + horovod",
-    "codeURL": "https://github.com/mzhangatge/imagenet106",
+    "codeURL": "https://github.com/mzhangatge/imagenet106/blob/9eed7d49c2b15beccfc0192a1c17c2dcc67fc2d7/imagenet_train.py",
     "model": "Resnet 50 v1",
     "hardware": "8*V100 (AWS Sagemaker p3.16xlarge)",
     "costPerHour": 24.48,
-    "timestamp": "2018-12-30",
+    "timestamp": "2018-01-06",
     "usedBlacklist": true,
     "misc": {
         "Environment": "NCCL2.3.5+PY3.6.7+TF1.11.0+OPENMPI-3.1.2+EdisonAITK",
