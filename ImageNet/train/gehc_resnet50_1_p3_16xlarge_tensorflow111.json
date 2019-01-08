@@ -7,7 +7,7 @@
     "model": "Resnet 50 v1",
     "hardware": "8*V100 (AWS Sagemaker p3.16xlarge)",
     "costPerHour": 24.48,
-    "timestamp": "2018-01-06",
+    "timestamp": "2019-01-06",
     "usedBlacklist": true,
     "misc": {
         "Environment": "NCCL2.3.5+PY3.6.7+TF1.11.0+OPENMPI-3.1.2+EdisonAITK",
