@@ -1,0 +1,17 @@
+{
+	    "version": "v1.0",
+	    "author": Baidu USA GAIT LEOPARD team: Baopu Li, Jiazhuo Wang, Zhiyu Cheng, Haofeng Kou, Yingze Bao 
+	    "authorEmail": "baopuli@baidu.com", “jiazhuowang@baidu.com”, “zhiyucheng@baidu.com”, “haofengkou@baidu.com”, “yingzebao@baidu.com”,
+	    "framework": "PyTorch v1.0.0.dev20181116",
+	    "codeURL": " https://github.com/BAIDU-USA-GAIT-LEOPARD/CIFAR10-Inference-ResNet18",
+	    "model": "ResNet18 using PyTorch JIT in C++",
+	    "hardware": "1 GeForce GTX 1080 / 8 GB / 20 CPU",
+	    "latency": 1.435 ms,
+	    "cost": NA,
+	    "top1Accuracy": 95.610%,
+	    "timestamp": "2019-02-02",
+	    "misc": {
+	        "CUDA version": "9.0",
+	        "CuDNN version": "7.1.4"
+	    }
+	}
