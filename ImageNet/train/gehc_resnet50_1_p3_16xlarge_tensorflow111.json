@@ -1,5 +1,5 @@
 {
-    "version": "v1.1",
+    "version": "v1.0",
     "author": "GE Healthcare (Min Zhang)",
     "authorEmail": "Min.Zhang@ge.com",
     "framework": "tensorflow 1.11 + horovod",
