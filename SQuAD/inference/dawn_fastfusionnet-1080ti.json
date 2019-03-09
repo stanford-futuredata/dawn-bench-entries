@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "Wu et al. (Cornell, SayMosaic, Google)",
+    "authorEmail": "dawnbench@cornell.edu",
+    "framework": "Pytorch v0.3.1",
+    "model": "FastFusionNet",
+    "hardware": "1 NVidia GTX-1080 Ti",
+    "timestamp": "2019-02-27",
+    "codeURL": "https://github.com/felixgwu/FastFusionNet",
+    "commitHash": "fff2980824c8583659055c846872b1f9c6a3e506",
+    "latency": 7.9,
+    "cost": null,
+    "f1Score": 82.52085997573373,
+    "misc": {
+        "CUDA version": "9.1",
+        "CuDNN version": "7.1"
+    }
+}
