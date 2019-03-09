@@ -219,6 +219,18 @@ def test_squad_v1_train_file_beats_threshold(path):
 
 @pytest.mark.parametrize(
     "path",
+    files['SQuAD']['train'],
+    ids=[os.path.split(path)[1] for path in files['SQuAD']['train']]
+)
+def test_squad_v1_train_tsv_has_f1Score_in_0_to_1_range(path):
+    data_path = os.path.splitext(path)[0] + '.tsv'
+
+    df = pd.read_csv(data_path, sep='\t')
+    assert (df['f1Score'] >= 0).all() and (df['f1Score'] <= 1).all()
+
+
+@pytest.mark.parametrize(
+    "path",
     files['SQuAD']['infer'],
     ids=[os.path.split(path)[1] for path in files['SQuAD']['infer']]
 )
