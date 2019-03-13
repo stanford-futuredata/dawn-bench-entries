@@ -1,39 +1,45 @@
 {
-    "version": "v1.0",
+    "version": "v2.0",
     "author": "ModelArts Service of Huawei Cloud",
-    "authorEmail": "zhangzhenyu6@huawei.com",
+    "authorEmail": "william.zhouweimin@huawei.com; zhangzhenyu6@huawei.com",
     "framework": "TensorFlow v1.8.0",
-    "codeURL": "https://github.com/huawei-clouds/modelarts-example/blob/67f4e7be978154b539004f72bf88f308d6c9769c/ImageNet-10min/fast_imagenet_dym_node_16.py",
+    "codeURL": "will be uploaded soon",
     "model": "ResNet-50",
-    "hardware": "16 nodes with RDMA (8*V100 for each node)",
-    "timestamp": "2018-11-22",
+    "hardware": "16 nodes with InfiniBand (8*V100 with NVLink for each node)",
+    "timestamp": "2019-03-12",
     "misc": {
-        "model implementation": "https://github.com/tensorflow/models/blob/505f554c6417931c96b59516f14d1ad65df6dbc5/research/slim/nets/resnet_v1.py",
-        "backend": "16 nodes with RDMA (8*V100 for each node)",
-        "CUDA version": "9.0",
-        "CuDNN version": "7.0.2",
+        "backend": "16 nodes 8*V100 (NVLink+GDR+horovod)",
+        "CUDA version": "9.2",
+        "CuDNN version": "7.0.5",
+        "horovod version": "0.15.2",
+        "NCCL version": "2.4.2-1",
+        "openmpi version": "v4.0.0",
+        "InfiniBand version": "4.3-1.0.1.0",
+        "MoXing version": "v1.12.4-rc0-200b830b",
         "optimizer": "SGD with Dynamic Momentum",
+        "horovod_compression": "fp16",
+        "mixed_precision": true,
         "use_nesterov": true,
-        "momentum": 0.9,
+        "use_lars": true,
+        "max_momentum": 0.98,
+        "min_momentum": 0.9,
         "weightDecay": 0.0001,
         "schedule": {
             "learning_rate": "linear cosine decay",
-            "warmup":0.1,
-            "cooldown": 0.08,
-            "max_lr": 8.5,
-            "min_lr": 0.05
+            "max_lr": 28.0,
+            "min_lr": 0.2
         },
 
         "imageSize": [
-            {"image_size": 128, "epochs": 21},
-            {"image_size": 224, "epochs": 21},
-            {"image_size": 288, "epochs": 2}
+            {"image_size": 128, "epochs": 30},
+            {"image_size": 224, "epochs": 4},
+            {"image_size": 288, "epochs": 1}
         ],
 
         "batchSize": [
-            {"batch_size": 28672, "epochs": 21},
-            {"batch_size": 28672, "epochs": 21},
-            {"batch_size": 16384, "epochs": 2}
+            {"batch_size": 32768, "epochs": 30},
+            {"batch_size": 32768, "epochs": 4},
+            {"batch_size": 16384, "epochs": 1}
         ]
     },
     "usedBlacklist": true
