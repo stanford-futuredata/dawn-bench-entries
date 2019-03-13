@@ -1,5 +1,5 @@
 {
-    "version": "v2.0",
+    "version": "v1.0",
     "author": "ModelArts Service of Huawei Cloud",
     "authorEmail": "william.zhouweimin@huawei.com; zhangzhenyu6@huawei.com",
     "framework": "TensorFlow v1.8.0",
