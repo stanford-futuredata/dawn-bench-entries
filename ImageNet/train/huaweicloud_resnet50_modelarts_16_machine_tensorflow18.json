@@ -3,7 +3,6 @@
     "author": "ModelArts Service of Huawei Cloud",
     "authorEmail": "william.zhouweimin@huawei.com; zhangzhenyu6@huawei.com",
     "framework": "TensorFlow v1.8.0",
-    "codeURL": "will be uploaded soon",
     "model": "ResNet-50",
     "hardware": "16 nodes with InfiniBand (8*V100 with NVLink for each node)",
     "timestamp": "2019-03-12",
