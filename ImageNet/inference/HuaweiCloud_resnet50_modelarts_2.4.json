@@ -4,7 +4,7 @@
     "authorEmail": "william.zhouweimin@huawei.com",
     "framework": "TensorFlow 1.8.0",
     "codeURL": "https://github.com/huawei-clouds/modelarts-example/tree/master/DAWNBench_Inference",
-    "commitHash": "https://github.com/huawei-clouds/modelarts-example/commit/b8831d3e3e38ccbdbed7b7e8bc697622e02dc069",
+    "commitHash": "b8831d3e3e38ccbdbed7b7e8bc697622e02dc069",
     "model": "ResNet50",
     "hardware": "Huawei Cloud [pi1.2xlarge.4]",
     "latency": 2.45,
