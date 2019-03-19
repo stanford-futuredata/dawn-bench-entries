@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "ModelArts Service of Huawei Cloud",
+    "authorEmail": "william.zhouweimin@huawei.com",
+    "framework": "TensorFlow 1.8.0",
+    "codeURL": "https://github.com/huawei-clouds/modelarts-example/tree/master/DAWNBench_Inference",
+    "commitHash": "b8831d3e3e38ccbdbed7b7e8bc697622e02dc069",
+    "model": "ResNet50",
+    "hardware": "Huawei Cloud [pi1.2xlarge.4]",
+    "latency": 2.45,
+    "top5Accuracy": 93.40,
+    "timestamp": "2019-03-12",
+    "usedBlacklist": true,
+    "misc": {
+        "CUDA version": "9.0",
+        "CuDNN version": "7.3"
+    }
+}
