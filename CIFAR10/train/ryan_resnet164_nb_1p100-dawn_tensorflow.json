@@ -1,0 +1,17 @@
+{
+    "version": "v1.0",
+    "author": "Ryan",
+    "authorEmail": "lxylzxc@163.com",
+    "framework": "TensorFlow v1.2",
+    "codeURL": "https://github.com/stanford-futuredata/dawn-bench-models/tree/master/tensorflow/CIFAR10",
+    "model": "ResNet 164 (without bottleneck)",
+    "hardware": "1 P100 / 384 GB / 48 CPU (x86_64 architecture machine)",
+    "costPerHour": null,
+    "timestamp": "2019-03-27",
+    "misc": {
+        "CUDA version": "8.0",
+        "CuDNN version": "5.1",
+        "ordering": "full preactivation",
+        "activation": "leaky_relu"
+    }
+}
