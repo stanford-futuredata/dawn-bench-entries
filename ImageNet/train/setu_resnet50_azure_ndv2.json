@@ -3,7 +3,6 @@
 	"author": "Setu Chokshi",
 	"authorEmail": "setuc@hotmail.com",
 	"framework": "PyTorch 1.0",
-	"codeURL": "https://github.com/diux-dev/cluster/blob/master/dawn/resnet.b512.baseline.py",
 	"model": "ResNet50",
 	"hardware": "Azure ND40s_v2",
   "timestamp": "2019-04-13",
