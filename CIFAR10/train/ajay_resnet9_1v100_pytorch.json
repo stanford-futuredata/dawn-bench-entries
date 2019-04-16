@@ -1,0 +1,25 @@
+{
+    "version": "v1.0",
+    "author": "Ajay Uppili Arasanipalai, Elliptigon",
+    "authorEmail": "ajay@elliptigon.com",
+    "framework": "pytorch 0.4.0",
+    "codeURL": "https://github.com/iyaja/cifar10-fast-2", 
+    "model": "Custom ResNet 9",
+    "hardware": "V100 (Nimbix np9g1)",
+    "costPerHour": 1.68,
+    "timestamp": "2019-04-14",
+    "misc": {
+        "optimizer": "SGD with Nesterov Momentum",
+        "momentum": 0.9,
+        "weightDecay": 5e-4,
+        "batchSize": 512,
+        "learningRate": {
+            "type": "piecewiseLinear",
+            "epochs": [0, 5, 24], 
+            "values": [0, 0.4, 0]
+        },
+        "CUDA version": "9.0",
+        "CuDNN version": "7.1.2",
+        "commandLine" : "python dawn.py"
+    }
+}
