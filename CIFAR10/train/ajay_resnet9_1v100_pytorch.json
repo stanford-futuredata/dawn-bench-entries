@@ -2,10 +2,10 @@
     "version": "v1.0",
     "author": "Ajay Uppili Arasanipalai",
     "authorEmail": "ajayuppili@gmail.com",
-    "framework": "pytorch 0.4.0",
+    "framework": "PowerAI 1.6.0 + PyTorch 1.0.1",
     "codeURL": "https://github.com/iyaja/cifar10-fast-2", 
     "model": "Custom ResNet 9",
-    "hardware": "V100 (Nimbix np9g1)",
+    "hardware": "IBM AC922 + Nvidia Tesla V100 (Nimbix np9g1)",
     "costPerHour": 1.68,
     "timestamp": "2019-04-14",
     "misc": {
