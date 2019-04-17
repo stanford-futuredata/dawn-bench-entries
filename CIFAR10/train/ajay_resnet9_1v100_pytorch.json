@@ -1,7 +1,7 @@
 {
     "version": "v1.0",
-    "author": "Ajay Uppili Arasanipalai, Elliptigon",
-    "authorEmail": "ajay@elliptigon.com",
+    "author": "Ajay Uppili Arasanipalai",
+    "authorEmail": "ajayuppili@gmail.com",
     "framework": "pytorch 0.4.0",
     "codeURL": "https://github.com/iyaja/cifar10-fast-2", 
     "model": "Custom ResNet 9",
