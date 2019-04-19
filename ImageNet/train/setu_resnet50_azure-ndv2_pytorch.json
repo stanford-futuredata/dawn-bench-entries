@@ -1,6 +1,6 @@
 {
 	"version": "v1.0",
-	"author": "Setu Chokshi",
+	"author": "SSetu Chokshi (MS AI MVP | PropertyGuru)",
 	"authorEmail": "setuc@hotmail.com",
 	"framework": "PyTorch 1.0",
 	"model": "ResNet50",
