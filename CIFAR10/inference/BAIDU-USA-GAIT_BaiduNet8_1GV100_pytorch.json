@@ -4,11 +4,11 @@
 	    "authorEmail": "baopuli@baidu.com, zhiyucheng@baidu.com, jiazhuowang@baidu.com, haofengkou@baidu.com, yingzebao@baidu.com",
 	    "framework": "PyTorch v1.0.1",
 	    "codeURL": " https://github.com/BAIDU-USA-GAIT-LEOPARD/CIFAR10-Inference-BaiduNet8",
-	    "commitHash": "https://github.com/BAIDU-USA-GAIT-LEOPARD/CIFAR10-Inference-BaiduNet8/commit/8678e0bcc72e6b72d5eb66e997e1ae92f2eaf2a1",
+	    "commitHash": "8678e0bcc72e6b72d5eb66e997e1ae92f2eaf2a1",
 	    "model": "BaiduNet8 using PyTorch JIT in C++",
 	    "hardware": "Baidu Cloud Tesla V100*1/60 GB/12 CPU",
 	    "latency": 0.683,
-	    "cost": 2.078e-3,
+	    "cost": 2.078e-7,
 	    "top1Accuracy": 94.32,
 	    "timestamp": "2019-04-12",
 	    "misc": {
