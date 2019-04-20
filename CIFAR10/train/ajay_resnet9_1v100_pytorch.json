@@ -6,7 +6,6 @@
     "codeURL": "https://github.com/iyaja/cifar10-fast-2/commit/eb3c84003d8ff8329214a71023fac81475202e28", 
     "model": "Custom ResNet 9",
     "hardware": "IBM AC922 + Nvidia Tesla V100 (Nimbix np9g1)",
-    "costPerHour": 1.68,
     "timestamp": "2019-04-14",
     "misc": {
         "optimizer": "SGD with Nesterov Momentum",
