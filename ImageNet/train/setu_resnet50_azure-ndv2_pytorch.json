@@ -1,0 +1,40 @@
+{
+	"version": "v1.0",
+	"author": "Setu Chokshi (MS AI MVP | PropertyGuru)",
+	"authorEmail": "setuc@hotmail.com",
+	"framework": "PyTorch 1.0",
+	"model": "ResNet50",
+	"hardware": "Azure ND40s_v2",
+  "timestamp": "2019-04-13",
+	"costPerHour": 12.24,
+	"optimizer": "SGD with Momentum",
+	"momentum": 0.9,
+	"misc": {
+		"schedule": [{
+				"learning_rate": 1.0,
+				"epochs": 1
+			},
+			{
+				"learning_rate": 2.0,
+				"epochs": 7
+			},
+			{
+				"learning_rate": 0.5,
+				"epochs": 5
+			},
+			{
+				"learning_rate": 0.4375,
+				"epochs": 9
+			},
+			{
+				"learning_rate": 0.004375,
+				"epochs": 2
+			},
+			{
+				"learning_rate": 0.0025,
+				"epochs": 3
+			}
+		]
+	},
+	"usedBlacklist": true
+}
