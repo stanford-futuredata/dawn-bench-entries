@@ -1,7 +1,7 @@
 {
 	    "version": "v1.0",
 	    "author": "Baidu USA GAIT LEOPARD team: Baopu Li, Zhiyu Cheng, Jiazhuo Wang, Haofeng Kou, Yingze Bao", 
-	    "authorEmail": "baopuli@baidu.com, zhiyucheng@baidu.com, jiazhuowang@baidu.com, haofengkou@baidu.com, yingzebao@baidu.com",
+	    "authorEmail": "baopuli@baidu.com, zhiyucheng@baidu.com, jiazhuowang@baidu.com, kouhaofeng@baidu.com, baoyingze@baidu.com",
 	    "framework": "PyTorch v1.0.1",
 	    "codeURL": " https://github.com/BAIDU-USA-GAIT-LEOPARD/CIFAR10-Inference-BaiduNet8",
 	    "commitHash": "8678e0bcc72e6b72d5eb66e997e1ae92f2eaf2a1",
