@@ -5,7 +5,7 @@
 	    "framework": "PyTorch v1.0.1",
 	    "codeURL": "https://github.com/BAIDU-USA-GAIT-LEOPARD/CIFAR10-Training-BaiduNet9/commit/856ec31bd48cc0338ce3d31dd5299cd58b1ceaaf",
 	    "model": "BaiduNet9",
-	    "hardware": "Baidu Cloud Tesela V100*1-16GB/56 GB/12 CPU",
+	    "hardware": "Baidu Cloud Tesla V100*1-16GB/56 GB/12 CPU",
 	    "costPerHour": 1.0632,
 	    "timestamp": "2019-05-07",
 	    "misc": {
