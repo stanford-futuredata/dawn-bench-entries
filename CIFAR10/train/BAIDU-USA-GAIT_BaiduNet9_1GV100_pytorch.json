@@ -1,0 +1,27 @@
+{
+	    "version": "v1.0",
+	    "author": "Baidu USA GAIT LEOPARD team: Baopu Li, Zhiyu Cheng, Yingze Bao", 
+	    "authorEmail": "baopuli@baidu.com, zhiyucheng@baidu.com, yingzebao@baidu.com",
+	    "framework": "PyTorch v1.0.1",
+	    "codeURL": "https://github.com/BAIDU-USA-GAIT-LEOPARD/CIFAR10-Training-BaiduNet9/commit/856ec31bd48cc0338ce3d31dd5299cd58b1ceaaf",
+	    "model": "BaiduNet9",
+	    "hardware": "Baidu Cloud Tesla V100*1-16GB/56 GB/12 CPU",
+	    "costPerHour": 1.0632,
+	    "timestamp": "2019-05-07",
+	    "misc": {
+			"optimizer": "SGD with Nesterov Momentum",
+			"momentum": 0.9,
+			"weightDecay": 5e-4,
+			"batchSize": 512,
+			"learningRate": {
+            "type": "piecewiseLinear",
+            "epochs": [0, 5, 24], 
+            "values": [0, 0.4, 0.001]
+        },
+	        "CUDA version": "10.0",
+	        "CuDNN version": "7.3.1",
+			"commandLine" : "python3 training.py",
+			"pytorchWheel": "torch-1.0.1.post2-cp35-cp35m-linux_x86_64.whl"
+
+	    }
+	}
