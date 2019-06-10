@@ -2,7 +2,7 @@
 	    "version": "v1.0",
 	    "author": "Baidu USA GAIT LEOPARD team: Baopu Li, Zhiyu Cheng, Yingze Bao", 
 	    "authorEmail": "baopuli@baidu.com, zhiyucheng@baidu.com, yingzebao@baidu.com",
-	    "framework": "PyTorch v1.0.1",
+	    "framework": "PyTorch v1.0.1 and PaddlePaddle",
 	    "codeURL": "https://github.com/BAIDU-USA-GAIT-LEOPARD/CIFAR10-Distributed-Training-BaiduNet9P/commit/df05b74663f21d4cbed894590535fab9a79d4d32",
 	    "model": "BaiduNet9P",
 	    "hardware": "Baidu Cloud Tesla 8*V100-16GB/448 GB/96 CPU",
@@ -15,6 +15,7 @@
 			"learningRate": "cosine",
                         "CUDA version": "10.0",
 	                "CuDNN version": "7.3.1",
-			"pytorchWheel": "torch-1.0.1.post2-cp35-cp35m-linux_x86_64.whl"
+			"pytorchWheel": "torch-1.0.1.post2-cp35-cp35m-linux_x86_64.whl",
+		        "PaddlePaddle": "Fluid 1.4.1"
 	    }
 	}
