@@ -1,0 +1,20 @@
+{
+    "version": "v1.0",
+    "author": "ChuangZhi Edge Server, Center for Intelligent Computing Systems, ICT, CAS",
+    "authorEmail": " lijiajun01@ict.ac.cn, yinhes@ict.ac.cn",
+    "framework": "Cambricon-MxNet",
+    "codeURL": "https://github.com/leejiajun/chuangzhi_dawnbench", 
+    "commitHash": "e66fea319343bc4e6137f97d49cb46785d8b0d27",
+    "model": "ResNet50",
+    "hardware": "1 Cambricon 100 / 64G / 2 CPU",
+    "latency": 4.082,
+    "top5Accuracy": 93.66,
+    "timestamp": "2019-6-10",
+    "misc": {
+        "CNRT": "Cambricon Neuware Runtime Library",
+        "CNML": "Cambricon Neuware Machine Learning",
+        "CNRT version": "2.8.0",
+        "CNML version": "4.4.0"
+    }
+}
+
