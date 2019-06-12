@@ -13,6 +13,7 @@
     "misc": {
         "TensorFlow": "Please pull the docker container image from nvcr.io/nvidia/tensorflow:19.04-py3",
         "CUDA version": "10.1",
-        "CuDNN version": "7.5"
+        "CuDNN version": "7.5",
+        "OS": "Iluvatar CoreX Optimized Linux"
     }
 }
