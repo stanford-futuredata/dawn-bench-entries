@@ -1,7 +1,7 @@
 {
     "version": "v1.0",
     "author": "PingAn GammaLab & PingAn Cloud team",
-    "authorEmail": "",
+    "authorEmail": "wuxiabao@hotmail.com ，hncstjg@163.com",
     "framework": "Caffe",
     "codeURL": "https://github.com/GammaLab-HPC/dawnbench_inference_imagenet", 
     "commitHash": "84490a9fda870ab739402749f4c0c1f3b5a57de1",
