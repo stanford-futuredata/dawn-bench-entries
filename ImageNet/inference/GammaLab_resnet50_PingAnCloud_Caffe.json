@@ -1,0 +1,21 @@
+{
+    "version": "v1.0",
+    "author": "PingAn GammaLab & PingAn Cloud team",
+    "authorEmail": "wuxiabao@hotmail.com ，hncstjg@163.com",
+    "framework": "Caffe 1.0",
+    "codeURL": "https://github.com/GammaLab-HPC/dawnbench_inference_imagenet", 
+    "commitHash": "5c22c1eff60a5ff7f63d2984cd4c0deedba744e5",
+    "model": "ResNet50",
+    "hardware": "PingAn Cloud {1 T4 / 128 GB / Xeon(G) Gold 6130}",
+    "latency": 1.01376,
+    "top5Accuracy": 93.35,
+    "timestamp": "2019-06-18",
+    "usedBlacklist": true,
+    "misc": {
+        "CUDA version": "10.0",
+        "CuDNN version": "7.5",
+        "TensorRT version":"5.1.5.0",
+        "Ubuntu version": "16.04",
+        "GPU driver":"410.104"
+    }
+}
