@@ -1,0 +1,20 @@
+{
+    "version": "v1.0",
+    "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud",
+    "authorEmail": "patrick.lp@alibaba-inc.com, youliang.yl@alibaba-inc.com",
+    "framework": "TensorFlow 1.12.2",
+    "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
+    "commitHash": "da18269a38a12e4e6f517e3d2caab9c330225204",
+    "model": "ResNet50",
+    "hardware": "Alibaba Cloud [ecs.gn5i-c8g1.2xlarge]",
+    "latency": 2.27,
+    "cost": 7.96e-07,
+    "top5Accuracy": 93.25,
+    "timestamp": "2018-05-16",
+    "misc": {
+        "TensorFlow": "1.12.2 for CUDA 10",
+        "CUDA version": "10.0.130",
+        "Data Set": "please use TFRecords file format for inference, to create TFRecords file you can use https://github.com/tensorflow/models/blob/master/research/inception/inception/data/build_imagenet_data.py"
+    }
+}
+
