@@ -1,0 +1,19 @@
+{
+    "version": "v1.0",
+    "author": "Iluvatar CoreX, P.S.R team: Gang Xu, Yu Song, Tao Yang, Fanwu Han",
+    "authorEmail": "gang.xu@iluvatar.ai",
+    "framework": "TensorFlow 1.13.1",
+    "codeURL": "https://github.com/gnuwind/dawnbench_inference_imagenet",
+    "commitHash": "6e05a35d1f431c697bd421117b8d0a2c594ac725",
+    "model": "ResNet50",
+    "hardware": "1 P4 / 128 GB / 32 CPU",
+    "latency": 1.868,
+    "top5Accuracy": 93.11,
+    "timestamp": "2019-6-1",
+    "misc": {
+        "TensorFlow": "Please pull the docker container image from nvcr.io/nvidia/tensorflow:19.04-py3",
+        "CUDA version": "10.1",
+        "CuDNN version": "7.5",
+        "OS": "Iluvatar CoreX Optimized Linux"
+    }
+}
