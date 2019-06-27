@@ -1,5 +1,5 @@
 {
-    "version": "v2.0",
+    "version": "v1.0",
     "author": "Iluvatar CoreX, P.S.R team: Gang Xu, Yu Song, Tao Yang, Fanwu Han",
     "authorEmail": "gang.xu@iluvatar.ai",
     "framework": "TensorRT 5.1.5",
