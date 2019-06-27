@@ -1,0 +1,21 @@
+{
+    "version": "v1.0",
+    "author": "InferenceX Team of Didi Cloud",
+    "authorEmail": "caijinping@didiglobal.com, yangjintao@didiglobal.com",
+    "framework": "ifx",
+    "codeURL": "https://github.com/didiyun/dawnbench-ifx",
+    "commitHash": "50f844adfeed810baf88bfa81034b637e446a5ae",
+    "model": "ResNet50",
+    "hardware": "Didi Cloud [1 T4 / 16 GB / 8 vCPU]",
+    "latency": 0.9695,
+    "top5Accuracy": 93.35,
+    "timestamp": "2019-06-25",
+    "misc": {
+       "batch_size": 1,
+       "Tensorflow": "1.13.1",
+       "CUDA": "10.0",
+       "CUDNN": "7.5.0",
+       "TensorRT": "5.1.2.2",
+       "Model": "https://github.com/tensorflow/models/tree/master/research/slim"
+    }
+}
