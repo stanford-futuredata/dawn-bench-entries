@@ -13,7 +13,7 @@
     "misc": {
         "TensorRT": "5.1.5",
         "CUDA version": "10.1",
-        "CuDNN version": "7.6",
+        "cuDNN version": "7.6",
         "OS": "Iluvatar CoreX Optimized Linux"
     }
 }
