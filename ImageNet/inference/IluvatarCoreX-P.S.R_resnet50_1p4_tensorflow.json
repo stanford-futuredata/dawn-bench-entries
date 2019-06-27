@@ -4,7 +4,7 @@
     "authorEmail": "gang.xu@iluvatar.ai",
     "framework": "TensorRT 5.1.5",
     "codeURL": "https://github.com/SkyAI/dawnbench_inference_imagenet",
-    "commitHash": "6e05a35d1f431c697bd421117b8d0a2c594ac725",
+    "commitHash": "c383dcbf99a622f2be4368616b37530754ee2ea1",
     "model": "ResNet50",
     "hardware": "1 P4 / 128 GB / 32 CPU",
     "latency": 1.4328,
