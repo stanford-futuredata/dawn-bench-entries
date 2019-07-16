@@ -1,0 +1,18 @@
+{
+    "version": "v2.0",
+    "author": "Ping An Technology Occam Platform",
+    "authorEmail": "wutianbo484@pingan.com.cn",
+    "framework": "Tensorflow 1.13.0",
+    "model": "PA-Occam-Bert",
+    "hardware": "1 NVidia Tesla V100",
+    "timestamp": "2019-07-16",
+    "codeURL": "https://github.com/geekerzli/PA-Occam-Bert",
+    "commitHash": "f96dbc159fd4dfced6ca83dfe9fd5477ffacb9b4",
+    "latency": 7.579,
+    "cost": null,
+    "f1Score": 75.89,
+    "misc": {
+        "CUDA version": "10.1",
+        "CuDNN version": "7.0"
+    }
+}
