@@ -1,5 +1,5 @@
 {
-    "version": "v2.0",
+    "version": "v1.0",
     "author": "Ping An Technology Occam Platform",
     "authorEmail": "wutianbo484@pingan.com.cn",
     "framework": "Tensorflow 1.13.0",
