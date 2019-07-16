@@ -10,7 +10,7 @@
     "commitHash": "f96dbc159fd4dfced6ca83dfe9fd5477ffacb9b4",
     "latency": 7.579,
     "cost": null,
-    "f1Score": 75.89,
+    "f1Score": 0.7589014251152389,
     "misc": {
         "CUDA version": "10.1",
         "CuDNN version": "7.0"
