@@ -5,7 +5,7 @@
     "framework": "TensorFlow v1.12.0",
     "model": "Resnet 50",
     "hardware": "2 nodes with InfiniBand (8*V100 for each node)",
-    "timestamp": "2019-07-23",
+    "timestamp": "2019-07-26",
     "usedBlacklist": true,
     "misc": {
         "backend": "NCCL 2.4.7+cuda9.0",
