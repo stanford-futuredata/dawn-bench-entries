@@ -12,26 +12,26 @@
         "optimizer": "SGD with Momentum",
         "misc": "removing batch-norm from weight decay, gamma init 0 for the final BN layer of each residual block, progressive resizing, dynamic batch size, rectangular image validation, accumulate the gradients of two iterations before performing the all-reduce operation",
         "momentum": 0.9,
-        "weightDecay": 0.0001,
+        "weightDecay": 0.00015,
         "batchSize": [
             {"batch_size": 8192, "epochs": 8},
-            {"batch_size": 16384, "epochs": 26},
-            {"batch_size": 8192, "epochs": 4},
+            {"batch_size": 16384, "epochs": 23},
+            {"batch_size": 8192, "epochs": 3},
             {"batch_size": 4096, "epochs": 2}
         ],
         "imageSize": [
-            {"image_size": 96, "epochs": 16},
-            {"image_size": 128, "epochs": 18},
-            {"image_size": 224, "epochs": 4},
+            {"image_size": 96, "epochs": 15},
+            {"image_size": 128, "epochs": 16},
+            {"image_size": 224, "epochs": 3},
             {"image_size": 288, "epochs": 2}
         ],
         "schedule": [
-            {"learning_rate": [2,4], "epochs": 8, "linear": true},
-            {"learning_rate": 4, "epochs": 8},
-            {"learning_rate": [4,2], "epochs": 4, "linear": true},
-            {"learning_rate": [2,0.2], "epochs": 14, "linear": true},
-            {"learning_rate": [0.2,0.02], "epochs": 4, "linear": true},
-            {"learning_rate": [0.01,0.001], "epochs": 2, "linear": true}
+            {"learning_rate": [2,4], "epochs": 8, "method": "linear"},
+            {"learning_rate": 4, "epochs": 7, "method": "constant"},
+            {"learning_rate": [4,2], "epochs": 4, "method": "polynomial"},
+            {"learning_rate": [2,0.2], "epochs": 12, "method": "linear"},
+            {"learning_rate": [0.2,0.02], "epochs": 3, "method": "linear"},
+            {"learning_rate": [0.01,0.001], "epochs": 2, "method": "linear"}
         ]
     }
 }
