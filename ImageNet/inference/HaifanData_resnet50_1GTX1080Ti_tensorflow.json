@@ -1,0 +1,19 @@
+{
+    "version": "v1.0",
+    "author": "HaifanData",
+    "authorEmail": "dawnbench@haifandata.com",
+    "framework": "TensorFlow 1.13.1",
+    "codeURL": "https://github.com/codeforfun12/dawnbench_inference",
+    "commitHash": "1e5423ea33824d0557c4b2878a055d2b96f9c5b7",
+    "model": "ResNet50",
+    "hardware": "1 NVidia GTX-1080 Ti",
+    "latency": 1.8571,
+    "top5Accuracy": 93.08,
+    "timestamp": "2019-7-22",
+    "misc": {
+        "TensorFlow": "1.13.1",
+        "TensorRT": "5.1.5",
+        "CUDA version": "10.1",
+        "cuDNN version": "7.6"
+    }
+}
