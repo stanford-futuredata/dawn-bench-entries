@@ -1,5 +1,5 @@
 {
-    "version": "v0.1.1",
+    "version": "v1.0",
     "author": "clint@KakaoBrain",
     "authorEmail": "clint.b@kakaobrain.com",
     "framework": "PyTorch 1.1.0",
