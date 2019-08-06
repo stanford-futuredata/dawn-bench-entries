@@ -1,0 +1,37 @@
+{
+    "version": "v1.0",
+    "author": "ZTE AI Platform",
+    "authorEmail": "li.weiqing5@zte.com.cn",
+    "framework": "TensorFlow v1.12.0",
+    "model": "Resnet 50",
+    "hardware": "8 nodes with InfiniBand (8*P100 for each node)",
+    "timestamp": "2019-08-01",
+    "usedBlacklist": true,
+    "misc": {
+        "backend": "NCCL 2.4.7+cuda9.0",
+        "optimizer": "SGD with Momentum",
+        "misc": "removing batch-norm from weight decay, gamma init 0 for the final BN layer of each residual block, progressive resizing, dynamic batch size, rectangular image validation",
+        "momentum": 0.9,
+        "weightDecay": 0.00015,
+        "batchSize": [
+            {"batch_size": 8192, "epochs": 8},
+            {"batch_size": 16384, "epochs": 23},
+            {"batch_size": 10240, "epochs": 3},
+            {"batch_size": 8192, "epochs": 2}
+        ],
+        "imageSize": [
+            {"image_size": 96, "epochs": 15},
+            {"image_size": 128, "epochs": 16},
+            {"image_size": 224, "epochs": 3},
+            {"image_size": 288, "epochs": 2}
+        ],
+        "schedule": [
+            {"learning_rate": [2,4], "epochs": 8, "method": "linear"},
+            {"learning_rate": 4, "epochs": 7, "method": "constant"},
+            {"learning_rate": [4,2], "epochs": 4, "method": "polynomial"},
+            {"learning_rate": [2,0.2], "epochs": 12, "method": "linear"},
+            {"learning_rate": [0.2,0.02], "epochs": 3, "method": "linear"},
+            {"learning_rate": [0.016,0.0016], "epochs": 2, "method": "linear"}
+        ]
+    }
+}
