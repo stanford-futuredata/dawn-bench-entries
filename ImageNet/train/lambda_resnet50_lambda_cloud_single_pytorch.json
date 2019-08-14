@@ -7,7 +7,7 @@
     "model": "Resnet 50",
     "hardware": "4 * 1080Ti (1 machine - Lambda GPU Cloud)",
     "costPerHour": 1.50,
-    "timestamp": "2019-03-10",
+    "timestamp": "2019-08-10",
     "usedBlacklist": true,
     "misc": {
         "model implementation": "https://github.com/lambdal/imagenet18/blob/1b43a01af2b8ee5bb9e2405a626d995a750edbb5/training/resnet.py",
@@ -35,6 +35,7 @@
           {"learning_rate": [0.22, 0.022], "epochs": 10, "linear": true},
           {"learning_rate": [0.022, 0.0022], "epochs": 3, "linear": true},
           {"learning_rate": [0.00125], "epochs": 1}
-        ]
+        ],
+        "reproduce steps": "https://github.com/lambdal/imagenet18/blob/1b43a01af2b8ee5bb9e2405a626d995a750edbb5/README.md"
     }
 }
