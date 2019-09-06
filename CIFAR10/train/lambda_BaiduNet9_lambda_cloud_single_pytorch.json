@@ -5,7 +5,7 @@
     "framework": "fastai / Pytorch 1.0.0",
     "codeURL": "https://github.com/lambdal/CIFAR10-Distributed-Training-BaiduNet9P/blob/baea41d37bebb8d6504e7779bb5dff4605953707/train_cifar10_BaiduNet9P.py",
     "model": "BaiduNet9",
-    "hardware": "Lambda GPU Cloud - gpu.4x instance",
+    "hardware": "Lambda GPU Cloud - 4x GTX 1080 Ti",
     "costPerHour": 1.50,
     "timestamp": "2019-08-13",
     "misc": {
