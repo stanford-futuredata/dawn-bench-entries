@@ -5,7 +5,7 @@
     "framework": "ncluster / Pytorch 1.0.0",
     "codeURL": "https://github.com/lambdal/imagenet18/blob/1b43a01af2b8ee5bb9e2405a626d995a750edbb5/training/train_imagenet_nv.py",
     "model": "Resnet 50",
-    "hardware": "Lambda GPU Cloud - gpu.4x instance",
+    "hardware": "Lambda GPU Cloud - 4x GTX 1080 Ti",
     "costPerHour": 1.50,
     "timestamp": "2019-08-10",
     "usedBlacklist": true,
