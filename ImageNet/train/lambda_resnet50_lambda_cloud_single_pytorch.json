@@ -1,0 +1,41 @@
+{
+    "version": "v1.0",
+    "author": "Chuan Li",
+    "authorEmail": "c@lambdal.com",
+    "framework": "ncluster / Pytorch 1.0.0",
+    "codeURL": "https://github.com/lambdal/imagenet18/blob/1b43a01af2b8ee5bb9e2405a626d995a750edbb5/training/train_imagenet_nv.py",
+    "model": "Resnet 50",
+    "hardware": "Lambda GPU Cloud - 4x GTX 1080 Ti",
+    "costPerHour": 1.50,
+    "timestamp": "2019-08-10",
+    "usedBlacklist": true,
+    "misc": {
+        "model implementation": "https://github.com/lambdal/imagenet18/blob/1b43a01af2b8ee5bb9e2405a626d995a750edbb5/training/resnet.py",
+        "training schedule": "[{'ep': 0, 'sz': 128, 'bs': 256, 'trndir': '-sz/160'}, {'ep': (0, 8), 'lr': (0.5, 1.0)}, {'ep': (8, 15), 'lr': (1.0, 0.125)}, {'ep': 15, 'sz': 224, 'bs': 112, 'trndir': '-sz/320', 'min_scale': 0.087}, {'ep': (15, 25), 'lr': (0.22, 0.022)}, {'ep': (25, 28), 'lr': (0.022, 0.0022)}, {'ep': 28, 'sz': 288, 'bs': 64, 'min_scale': 0.5, 'rect_val': True}, {'ep': (28, 29), 'lr': (0.00125, 0.000125)}]",
+        "backend": "cuda9.0",
+        "optimizer": "SGD with Momentum",
+        "train.py args": "/home/ubuntu/data/imagenet --workers=4 --fp16 --logdir ./ncluster/runs/lambda-cloud-1-instance --distributed --init-bn0 --no-bn-wd --skip-auto-shutdown",
+        "misc": "Customized FastAI's learning rate schedule for 4 x 1080Ti - http://www.fast.ai/2018/08/10/fastai-diu-imagenet/. ",
+        "learning_rate_misc": "Warmup 15 epochs with image resolution 128- Increase the initial learning rate (0.5) to 1.0 and then back down to 0.125. Then increase image resolution to 224 for 13 epochs with learning rate decreased from 0.22 to 0.0022. Then increase image resolution to 288 for one epoch with learning rate 0.00125",
+        "momentum": 0.9,
+        "weightDecay": 0.0001,
+        "batchSize": [
+          {"batch_size": 128, "epochs": 14},
+          {"batch_size": 112, "epochs": 27},
+          {"batch_size": 64, "epochs": 28}
+        ],
+        "imageSize": [
+            {"image_size": 128, "epochs": 14},
+            {"image_size": 224, "epochs": 27},
+            {"image_size": 288, "epochs": 28}
+        ],
+        "schedule": [
+          {"learning_rate": [0.5, 1.0], "epochs": 8, "linear": true},
+          {"learning_rate": [1.0, 0.125], "epochs": 7, "linear": true},
+          {"learning_rate": [0.22, 0.022], "epochs": 10, "linear": true},
+          {"learning_rate": [0.022, 0.0022], "epochs": 3, "linear": true},
+          {"learning_rate": [0.00125], "epochs": 1}
+        ],
+        "reproduce steps": "https://github.com/lambdal/imagenet18/blob/1b43a01af2b8ee5bb9e2405a626d995a750edbb5/README.md"
+    }
+}

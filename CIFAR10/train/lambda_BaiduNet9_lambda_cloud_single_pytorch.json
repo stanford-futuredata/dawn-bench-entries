@@ -1,0 +1,24 @@
+{
+    "version": "v1.0",
+    "author": "Chuan Li",
+    "authorEmail": "c@lambdal.com",
+    "framework": "fastai / Pytorch 1.0.0",
+    "codeURL": "https://github.com/lambdal/CIFAR10-Distributed-Training-BaiduNet9P/blob/baea41d37bebb8d6504e7779bb5dff4605953707/train_cifar10_BaiduNet9P.py",
+    "model": "BaiduNet9",
+    "hardware": "Lambda GPU Cloud - 4x GTX 1080 Ti",
+    "costPerHour": 1.50,
+    "timestamp": "2019-08-13",
+    "misc": {
+        "model implementation": "https://github.com/lambdal/CIFAR10-Distributed-Training-BaiduNet9P/blob/baea41d37bebb8d6504e7779bb5dff4605953707/BaiduNet.py",
+        "1cycle parameters": "cycles: 24,cyclical max/min momentum: 0.95,0.85, pct_start = 0.41， max=0.0052",
+        "weightDecay": 0.42,
+        "batchSize": 1024,
+        "learningRate": "cosine",
+                        "CUDA version": "9.0",
+                        "CuDNN version": "7.3.1",
+        "conda install": "https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh",
+        "pytorch install": "conda install pytorch=1.0.0 torchvision cuda90 -c pytorch",
+        "fastai install":  "conda install -c fastai fastai",
+        "reproduce steps": "https://github.com/lambdal/CIFAR10-Distributed-Training-BaiduNet9P/blob/baea41d37bebb8d6504e7779bb5dff4605953707/README.md"
+    }
+}
