@@ -1,0 +1,18 @@
+{
+    "version": "v2.0",
+    "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud",
+    "authorEmail": "niqi.lnq@alibaba-inc.com, youliang.yl@alibaba-inc.com",
+    "framework": "Pytorch+TensorRT",
+    "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
+    "commitHash": "bc904f374c4e6335e964ffeb9a96e5a335471f3b",
+    "model": "ResNet26d",
+    "hardware": "Alibaba Cloud [ecs.gn6i-c8g1.2xlarge]",
+    "latency": 0.637316,
+    #"cost": 1.54e-06,
+    "top5Accuracy": 93.028,
+    "timestamp": "2019-10-12",
+    "misc": {
+        "TensorRT": "TensorRT 6.0.1.5 for CentOS/RedHat 7 (https://developer.nvidia.com/compute/machine-learning/tensorrt/secure/6.0/GA_6.0.1.5/tars/TensorRT-6.0.1.5.CentOS-7.6.x86_64-gnu.cuda-10.0.cudnn7.6.tar.gz",
+        "CUDA version": "10.0.130",
+    }
+}
