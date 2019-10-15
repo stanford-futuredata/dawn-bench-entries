@@ -6,7 +6,7 @@
     "codeURL": "https://github.com/wbaek/torchskeleton/releases/tag/v0.1.1_dawnbench_cifar10_release",
     "model": "Kakao Brain Custom ResNet9",
     "hardware": "Tesla V100 * 4 GPU / 488 GB / 56 CPU (Kakao Brain BrainCloud)",
-    "timestamp": "2019-08-05",
+    "timestamp": "2019-08-22",
     "misc": {
         "optimizer" : {
             "type": "SGD with Nesterove Momentum",

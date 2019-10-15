@@ -7,8 +7,8 @@
     "commitHash": "96c0cbf0bb9ce0734512048a124caf82bf24c392",
     "model": "Kakao Brain Custom ResNet9 using PyTorch JIT in python",
     "hardware": "Tesla V100 * 1 GPU / 488 GB / 56 CPU (Kakao Brain BrainCloud)",
-    "latency": 0.85933,
-    "top1Accuracy": 94.20,
-    "timestamp": "2019-08-06",
+    "latency": 0.85702,
+    "top1Accuracy": 94.23,
+    "timestamp": "2019-08-22",
     "misc": {}
 }
