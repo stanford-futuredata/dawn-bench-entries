@@ -8,7 +8,7 @@
     "model": "ResNet26d",
     "hardware": "Alibaba Cloud [ecs.gn6i-c8g1.2xlarge]",
     "latency": 0.637316,
-    "cost": 4.9e-07,
+    "cost": 3.1228484e-07,
     "top5Accuracy": 93.028,
     "timestamp": "2019-10-17",
     "misc": {
