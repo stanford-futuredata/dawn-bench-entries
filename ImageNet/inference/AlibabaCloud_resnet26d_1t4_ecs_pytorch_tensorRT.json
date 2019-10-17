@@ -1,5 +1,5 @@
 {
-    "version": "v2.0",
+    "version": "v1.0",
     "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud",
     "authorEmail": "niqi.lnq@alibaba-inc.com, youliang.yl@alibaba-inc.com",
     "framework": "Pytorch+TensorRT",
