@@ -9,6 +9,6 @@
     "hardware": "Tesla V100 * 1 GPU / 488 GB / 56 CPU (Kakao Brain BrainCloud)",
     "latency": 0.85702,
     "top1Accuracy": 94.23,
-    "timestamp": "2019-08-22",
+    "timestamp": "2019-10-15",
     "misc": {}
 }
