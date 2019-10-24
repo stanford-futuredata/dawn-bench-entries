@@ -2,7 +2,7 @@
     "version": "v1.0",
     "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud",
     "authorEmail": "niqi.lnq@alibaba-inc.com, youliang.yl@alibaba-inc.com",
-    "framework": "Pytorch+TensorRT",
+    "framework": "Pytorch+PerseusInference",
     "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
     "commitHash": "bc904f374c4e6335e964ffeb9a96e5a335471f3b",
     "model": "ResNet26d",
