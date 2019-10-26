@@ -2,7 +2,7 @@
     "version": "v1.0",
     "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud",
     "authorEmail": "niqi.lnq@alibaba-inc.com, youliang.yl@alibaba-inc.com",
-    "framework": "Pytorch+TensorRT",
+    "framework": "Pytorch+PerseusInference",
     "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
     "commitHash": "bc904f374c4e6335e964ffeb9a96e5a335471f3b",
     "model": "ResNet26d",
@@ -12,7 +12,6 @@
     "top5Accuracy": 93.028,
     "timestamp": "2019-10-17",
     "misc": {
-        "TensorRT": "TensorRT 6.0.1.5 for CentOS/RedHat 7 (https://developer.nvidia.com/compute/machine-learning/tensorrt/secure/6.0/GA_6.0.1.5/tars/TensorRT-6.0.1.5.CentOS-7.6.x86_64-gnu.cuda-10.0.cudnn7.6.tar.gz",
         "Pytorch" : "Pytorch 1.2.0 with gpu support, installed by pip",
         "torchvision" : "torchvision 0.4.0, installed by pip",
         "CUDA version": "10.0.130"
