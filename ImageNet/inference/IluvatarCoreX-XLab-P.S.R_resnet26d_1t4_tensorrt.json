@@ -1,0 +1,19 @@
+{
+    "version": "v1.0",
+    "author": "Iluvatar CoreX, X Lab, P.S.R team:　Gang Xu, Yu Song, Tao Yang, Fanwu Han",
+    "authorEmail": "gang.xu@iluvatar.ai",
+    "framework": "TensorRT 6.0.1.4",
+    "codeURL": "https://github.com/SkyAI/dawnbench_inference_imagenet",
+    "commitHash": "54d75fdd7c8ddf859ddcdcb6151ef66d115bc786",
+    "model": "ResNet26d",
+    "hardware": "1 T4 / 128 GB / 40 CPU",
+    "latency": 0.5792,
+    "top5Accuracy": 93.03,
+    "timestamp": "2019-10-25",
+    "misc": {
+        "TensorRT": "6.0.1.4",
+        "CUDA version": "10.1.243",
+        "cuDNN version": "7.6.3.30",
+        "OS": "Iluvatar CoreX Optimized Linux"
+    }
+}
