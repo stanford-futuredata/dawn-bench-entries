@@ -8,7 +8,7 @@
     "model": "ResNet8",
     "hardware": "Huawei Cloud [pi2.2xlarge.4]",
     "latency": 0.1345,
-    "top5Accuracy": 94.20,
+    "top1Accuracy": 94.20,
     "timestamp": "2019-11-22",
     "misc": {
         "TensorRT": "TensorRT 6.0.1.5 for Ubuntu 16 ",
