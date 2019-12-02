@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "ModelArts Service of Huawei Cloud",
+    "authorEmail": "dengbinbin1@huawei.com",
+    "framework": "ModelArts-AIBOX + TensorRT",
+    "codeURL": "https://github.com/huaweicloud/ModelArts-Lab/tree/master/benchmark/DAWNBench_Inference/dawnbench_cifar",
+    "commitHash": "0d66b904782d0fc4fadc9e51d39f60687e3d05e0",
+    "model": "ResNet8",
+    "hardware": "Huawei Cloud [pi2.2xlarge.4]",
+    "latency": 0.1345,
+    "top1Accuracy": 94.20,
+    "timestamp": "2019-11-22",
+    "misc": {
+        "TensorRT": "TensorRT 6.0.1.5 for Ubuntu 16 ",
+        "CUDA version": "10.0.130",
+        "TensorFlow" : "TensorFlow 1.13.1"
+    }
+}
