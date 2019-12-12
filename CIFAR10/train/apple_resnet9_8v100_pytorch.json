@@ -1,0 +1,11 @@
+{
+    "version": "v1.0",
+    "author": "Santiago Akle Serrano, Hadi Pour Ansari, Vipul Gupta, Dennis DeCoste",
+    "authorEmail": "sakle@apple.com",
+    "framework": "Pytorch 1.1.0",
+    "codeURL": "https://github.com/apple/ml-cifar-10-faster",
+    "model": "Custom Resnet 9",
+    "hardware": "Tesla V100 * 8 GPU / 32 GB / 40 CPU",
+    "timestamp": "2019-12-11",
+    "misc": {} 
+}
