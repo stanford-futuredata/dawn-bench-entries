@@ -1,0 +1,27 @@
+
+{
+    "version": "v1.0",
+    "author": "Ajay Uppili Arasanipalai",
+    "authorEmail": "ajayuppili@gmail.com",
+    "framework": "PyTorch 1.1.0",
+    "codeURL": "https://github.com/iyaja/cifar-10-faster/commit/0009f1490b61ca31aeab56726a19e4a55193db12", 
+    "model": "Custom ResNet 9",
+    "hardware": "IBM AC922 + 4 * Nvidia Tesla V100 (NCSA HAL)",
+    "timestamp": "2020-01-05",
+    "misc": {
+        "optimizer": "SGD with Nesterov Momentum",
+        "momentum": 0.9,
+        "weightDecay": 6e-3,
+        "batchSize": 512,
+        "learningRate": {
+            "type": "piecewiseLinear",
+            "epochs": [0, 2.8, 12], 
+            "values": [0, 1.5, 0.15]
+        },
+        "activation": "mish",
+        "CUDA version": "10.1",
+        "CuDNN version": "7.5.1_10.1",
+        "PowerAI": "1.6.1",
+        "commandLine" : "WORKERS=4 bash train_cifar_parallel.sh --batch_size=512 --epochs=14 --runs=20"
+    }
+}
