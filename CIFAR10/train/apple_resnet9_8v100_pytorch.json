@@ -1,0 +1,33 @@
+{
+    "version": "v1.0",
+    "author": "Santiago Akle Serrano, Hadi Pour Ansari, Vipul Gupta, Dennis DeCoste",
+    "authorEmail": "sakle@apple.com",
+    "framework": "Pytorch 1.1.0",
+    "codeURL": "https://github.com/apple/ml-cifar-10-faster",
+    "model": "Custom Resnet 9",
+    "hardware": "Tesla V100 * 8 GPU / 32 GB / 40 CPU",
+    "timestamp": "2019-12-11",
+    "commitHash": "0b8962aecfd7a7bab3737ec1baa7d9a0f8ef8cfa",
+    "misc": {
+	"optimizer": "SGD with Nesterov momentum",
+	"momentum": 0.9,
+	"weightDecay": 0.192,
+	"biasWeightDecay": 0.003, 
+	"batchSize": 2048, 
+	"perGpuBatchSize": 256,
+	"learningRate": {
+		"type": "picewiseLinear",
+	        "epochs": [0, 3.6, 16, 18],
+       		"values": [0, 1.5, 0.15, 0.15]		
+	},
+	"biasLearningRate": {
+		"type": "picewiseLinear",
+	        "epochs": [0, 3.6, 16, 18],
+       		"values": [0, 96.0, 9.6, 9.6]		
+	},
+	"Cuda version": "10.0",
+	"CuDNN version": "7.4.1.5",
+	"NCCL version" : "2.3.7",
+    	"commandLine": "bash ./train_cifar_parallel.sh"
+    } 
+}
