@@ -1,0 +1,20 @@
+{
+    "version": "v1.0",
+    "author": "Machine Intelligence in Alibaba Cloud",
+    "authorEmail": "limou.lm@alibaba-inc.com",
+    "framework": "HIE",
+    "codeURL": "https://github.com/AliCloud-DAMO-hci/hci_HIEinfer",
+    "commitHash": "61885112ed51b22c6f1309331eff78706513086c",
+    "model": "MIVT-NET",
+    "hardware": "Alibaba Cloud [ecs.gn6i-c8g1.2xlarge]",
+    "latency": 0.4468,
+    "top5Accuracy": 93.004,
+    "timestamp": "2020-02-27",
+    "misc": {
+        "CUDA version" : "10.0",
+        "cuDNN version" : "7.5.0",
+        "Protobuf version" : "3.6.1",
+        "Python version" : "3.7.4 Anaconda"
+    }
+}
+
