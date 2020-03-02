@@ -6,7 +6,7 @@
     "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
     "commitHash": "dc34f8e2e02ae670625041f17646c1622bc2bd2d",
     "model": "ResNet26d",
-    "hardware": ""Alibaba Cloud [ecs.ebman1.26xlarge]",
+    "hardware": "Alibaba Cloud [ecs.ebman1.26xlarge]",
     "latency": 0.11671,
     "cost": null,
     "top5Accuracy": 93.178,
