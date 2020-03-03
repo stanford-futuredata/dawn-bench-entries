@@ -1,12 +1,12 @@
 {
     "version": "v1.0",
-    "author": "Ai CognitiveComputing team in Alipay Group",
+    "author": "AI Cognitive Computing team in Alipay Group",
     "authorEmail": "xing.rao@alibaba-inc.com, weihong.wh@alibaba-inc.com",
     "framework": "tensorflow+NpuInference",
     "codeURL": "https://github.com/alipay-cognition/DAWNBench_Inference",
-    "commitHash": "",
+    "commitHash": "ea76aaa2699e2dd1fdf46ae144c332f83f4b3d9c",
     "model": "ResNet101",
-    "hardware": "Alibaba Cloud Npu, from https://promotion.aliyun.com/ntms/act/alinpu.html?spm=5176.12901015.0.i12901015.4c27525cDE1r6q",
+    "hardware": "Alibaba Cloud Npu",
     "latency": 0.387978,
     "cost": null,
     "top5Accuracy": 93.38,
@@ -17,6 +17,7 @@
         "numpy" : "pip3 install numpy",
         "python-gflags" : "pip3 install python-gflags",
         "tensorflow" : "tensorflow 1.12.0 with cpu support, installed by pip install tensorflow==1.12.0",
-        "hgai" : "pip install from https://promotion.aliyun.com/ntms/act/alinpu.html?spm=5176.12901015.0.i12901015.4c27525cDE1r6q"
+        "hgai" : "pip install from https://promotion.aliyun.com/ntms/act/alinpu.html",
+        "Npu" : "https://promotion.aliyun.com/ntms/act/alinpu.html"
     }
 }
