@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "Perseus AI Cloud Acceleration team in Alibaba Cloud && Alibaba T-Head",
+    "authorEmail": "niqi.lnq@alibaba-inc.com, youliang.yl@alibaba-inc.com",
+    "framework": "Pytorch+PerseusInference+HGAI",
+    "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
+    "commitHash": "dc34f8e2e02ae670625041f17646c1622bc2bd2d",
+    "model": "ResNet26d",
+    "hardware": "Alibaba Cloud [ecs.ebman1.26xlarge]",
+    "latency": 0.11671,
+    "cost": null,
+    "top5Accuracy": 93.178,
+    "timestamp": "2020-03-02",
+    "misc": {
+        "Pytorch" : "Pytorch 1.2.0 with gpu support, installed by pip",
+        "torchvision" : "torchvision 0.4.0, installed by pip"
+    }
+}
