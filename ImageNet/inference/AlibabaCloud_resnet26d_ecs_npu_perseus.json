@@ -4,7 +4,7 @@
     "authorEmail": "niqi.lnq@alibaba-inc.com, youliang.yl@alibaba-inc.com",
     "framework": "Pytorch+AIACC-Inference+HGAI",
     "codeURL": "https://github.com/ali-perseus/DAWNBench_Inference",
-    "commitHash": "dc34f8e2e02ae670625041f17646c1622bc2bd2d",
+    "commitHash": "07410162dc1adbe9156ab6fd9d84a90f292a91bf",
     "model": "ResNet26d",
     "hardware": "Alibaba Cloud [ecs.ebman1.26xlarge]",
     "latency": 0.0739278,
